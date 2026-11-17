@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "tuskenraider_mgun"}
+	{portrait "usa_82nd_airborne"}
+	{icon "mg"}
+	{icon_priority 6}
+	{tags "soldier"}
+	{nationality tusken}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Tatooine/- Tusken Raiders/normal/ability.inc")
+		("mg_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Tatooine/- Tusken Raiders/normal/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "tuskenmgun" filled}
+		{item "ammo mgun_usa belt" 300}
+
+		{item "bandage_usa" 5.5 0.5}
+		{item "shovel_usa"}
+
+		{in_hands 0}
+	}
+}

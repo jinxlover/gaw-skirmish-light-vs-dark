@@ -1,0 +1,40 @@
+;sdl
+
+;	╔════════════════════════════════════════╗
+;	║      EARLY WAR 1937- May  1941         ║
+;	╠═══════╦═══════╦═══════╦═══════╦════════╣
+;	║ AXIS  ║ Ger   ║ Ita   ║ Jap   ║  Fin   ║     
+;	╠═══════╬═══════╬═══════╬═══════╬════════╣    
+;	║ ALLIES║ Rus   ║ Eng   ║ Fra   ║ Pol    ║
+;	╚═══════╩═══════╩═══════╩═══════╩════════╝
+;_________________________________________________________
+;|              GLOBAL  SETTINGS                         |
+;| this loads setting architecture for declaring units   |
+;|_______________________________________________________|
+(include "/set/multiplayer/units/settings.set")
+(include "/set/multiplayer/units/settings_inf.set")
+
+;_________________________________________________________
+;|              INF SETTINGS                             |
+;| this configures the CP, flag capture power and kill   |
+;| points of the different breeds that make inf squads   |
+;|_______________________________________________________|
+(include "/set/multiplayer/units/early/inf_ger.set") 
+(include "/set/multiplayer/units/early/inf_fin.set") 
+(include "/set/multiplayer/units/early/inf_rus.set")
+(include "/set/multiplayer/units/early/inf_eng.set")
+
+;_________________________________________________________
+;|            UNIT ROSTERS                               |
+;| this defines the different squads and units available |
+;| and configs their cost, buy menu, cooldowns, etc      |
+;|_______________________________________________________|
+(include "/set/multiplayer/units/early/units_rus.set")
+(include "/set/multiplayer/units/early/units_ger.set")
+(include "/set/multiplayer/units/early/units_fin.set")
+(include "/set/multiplayer/units/early/units_eng.set")
+;// Galaxy At War skirmish
+(include "/set/multiplayer/units/gaw/inf_rep.set")
+(include "/set/multiplayer/units/gaw/inf_cis.set")
+(include "/set/multiplayer/units/gaw/units_rep_early.set")
+(include "/set/multiplayer/units/gaw/units_cis_early.set")

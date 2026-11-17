@@ -1,0 +1,26 @@
+{breed
+	{behaviour soldier}
+	{skin "tuskenraider"}
+	{portrait "usa_infantry"}
+	{icon "autorifle"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality tusken}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Tatooine/- Tusken Raiders/normal/ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Tatooine/- Tusken Raiders/normal/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "cyclerrifle" filled}
+		{item "rifle_rus clip ammo" 60 5}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_usa"}
+
+		{in_hands 0}
+	}
+}

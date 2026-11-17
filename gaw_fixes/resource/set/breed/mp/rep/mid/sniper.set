@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "clone"}
+	{portrait "ger_regular"}
+	{icon "rifle"}
+	{icon_priority 0}
+	{nationality rep}
+	{armors
+		{head clone_helmet_p2}
+	}
+	{perks
+		(include "/set/breed/mp/rep/mid/ability.inc")
+		("rifle_skill_rank_4")
+		("sniper_vision")
+		("stealth")
+	}
+	{veterancy
+		(include "/set/breed/mp/rep/mid/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "dc15x_sniper" filled}
+		{item "dc_blasters ammo" 80}
+		{item "empdetonator grenade" 2}
+
+		{item "bandage_ger" 3.5 0.5}
+		{item "shovel_ger"}
+
+		{in_hands 0}
+	}
+}

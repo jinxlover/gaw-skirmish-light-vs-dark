@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "b1_engineer"}
+	{portrait "b1_engineer"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality cis}
+	{perks
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("rifle_skill_rank_2")
+		("engineer")
+	}
+	{veterancy
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "e5_shotgun" filled}
+		{item "e5sh_blasters ammo" 60}
+		{item "thermaldetonator grenade" 2}
+
+		{item "bandage_ger" 3.5 0.5}
+		{item "mine_detector"}
+		{item "wirecutters"}
+		{item "shovel_ger"}
+		{item "pickaxe"}
+		{item "b1_backpack"}
+		{item "m39 mine" 6.5 0.5}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,24 @@
+{breed
+	{behaviour soldier}
+	{skin "naboo_palace_guard"}
+	{portrait "rus_regular"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality reb}
+	{armors
+		{head naboo_palace_helmet}
+	}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Naboo/palace guard/ability.inc")
+		("smg_skill_rank_2")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Naboo/palace guard/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "cr2_blaster_mod2" filled}
+		{item "cr_blasters ammo" 240}
+		{in_hands 0}
+	}
+}

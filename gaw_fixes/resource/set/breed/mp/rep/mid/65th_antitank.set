@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "clone_65th"}
+	{portrait "ger_regular"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality rep}
+	{armors
+		{head clone_helmet_65th_p2}
+	}
+	{perks
+		(include "/set/breed/mp/rep_65th/mid/ability.inc")
+		("smg_skill_rank_2")
+		("at_rank_3")
+	}
+	{veterancy
+		(include "/set/breed/mp/rep_65th/mid/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "plx1_rpg weapon" filled}
+		{item "smartrocket ammo" 4.5 0.5}
+		{item "empdetonator grenade" 2}
+
+		{item "bandage_ger" 3.5 0.5}
+
+		{in_hands 0}
+	}
+}

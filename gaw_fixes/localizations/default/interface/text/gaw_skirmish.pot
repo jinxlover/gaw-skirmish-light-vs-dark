@@ -1,0 +1,252 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/squad/gaw_clone_squad(rep)"
+msgid "Clone Trooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/gaw_clone_assault(rep)"
+msgid "Clone Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/gaw_clone_at(rep)"
+msgid "Clone AT Team"
+msgstr ""
+
+msgctxt "desc/squad/gaw_clone_engineers(rep)"
+msgid "Clone Engineers"
+msgstr ""
+
+msgctxt "desc/squad/gaw_naboo_guard(rep)"
+msgid "Naboo Guard"
+msgstr ""
+
+msgctxt "desc/squad/gaw_wookiee_warriors(rep)"
+msgid "Wookiee Warriors"
+msgstr ""
+
+msgctxt "desc/squad/gaw_clone_sniper(rep)"
+msgid "Clone Sniper Team"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_21st_squad(rep)"
+msgid "<c(B29557)>( I )</c> 21st Galactic Marines"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_wookiee_elders(rep)"
+msgid "<c(B29557)>( I )</c> Wookiee Elder Warriors"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_65th_squad(rep)"
+msgid "<c(B29557)>( II )</c> 65th Assault Corps"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_naboo_royal(rep)"
+msgid "<c(B29557)>( II )</c> Naboo Royal Guard"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_delta_squad(rep)"
+msgid "<c(B29557)>( III )</c> Delta Squad"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_wookiee_heroes(rep)"
+msgid "<c(B29557)>( III )</c> Chewbacca and Tarfful"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_21st_snipers(rep)"
+msgid "<c(B29557)>( III )</c> Marine Sniper Team"
+msgstr ""
+
+msgctxt "desc/squad/gaw_b1_squad(cis)"
+msgid "B1 Battle Droid Squad"
+msgstr ""
+
+msgctxt "desc/squad/gaw_b1_at(cis)"
+msgid "B1 AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/gaw_b1_flame(cis)"
+msgid "B1 Flamer Squad"
+msgstr ""
+
+msgctxt "desc/squad/gaw_b1_engineers(cis)"
+msgid "B1 Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/gaw_imp_engineers(cis)"
+msgid "Imperial Engineers"
+msgstr ""
+
+msgctxt "desc/squad/gaw_geonosians(cis)"
+msgid "Geonosian Warriors"
+msgstr ""
+
+msgctxt "desc/squad/gaw_tusken_raiders(cis)"
+msgid "Tusken Raiders"
+msgstr ""
+
+msgctxt "desc/squad/gaw_killiks(cis)"
+msgid "Killik Swarm"
+msgstr ""
+
+msgctxt "desc/squad/gaw_b1_sniper(cis)"
+msgid "B1 Sniper Droids"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_bx_squad(cis)"
+msgid "<c(B29557)>( I )</c> BX Commando Droids"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_geo_elite(cis)"
+msgid "<c(B29557)>( I )</c> Geonosian Elite"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_czerka(cis)"
+msgid "<c(B29557)>( II )</c> Czerka Security Droids"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_tusken_snipers(cis)"
+msgid "<c(B29557)>( II )</c> Tusken Sharpshooters"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_bx_elite(cis)"
+msgid "<c(B29557)>( III )</c> BX Commando Strike Team"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_krrsantan(cis)"
+msgid "<c(B29557)>( III )</c> Black Krrsantan"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_tx130g"
+msgid "<c(B29557)>( I )</c> TX-130g"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_t1bm_hovertank"
+msgid "<c(B29557)>( I )</c> T1-b (m)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_aat_tank_reb"
+msgid "<c(B29557)>( I )</c> Armored Assault Tank (AAT)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_tx130t"
+msgid "<c(B29557)>( II )</c> TX-130t"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_tx130m"
+msgid "<c(B29557)>( II )</c> TX-130m"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_t2b_hovertank"
+msgid "<c(B29557)>( II )</c> T2-b"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_aac3_hovertank"
+msgid "<c(B29557)>( II )</c> AAC-3"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_m2b_hovertank"
+msgid "<c(B29557)>( II )</c> M2-b"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_wookiee_battle_scythe"
+msgid "<c(B29557)>( II )</c> Wookiee Battle Scythe"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_tx130_com"
+msgid "<c(B29557)>( III )</c> TX-130 Commander"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_tx80"
+msgid "<c(B29557)>( III )</c> TX-80"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_520_battleplatform_tank"
+msgid "<c(B29557)>( III )</c> 520 BattlePlatform"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_laat_gunship"
+msgid "<c(B29557)>( III )</c> Low Altitude Assault Transport (LAAT)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_laat-i_gunship"
+msgid "<c(B29557)>( III )</c> Low Altitude Assault Transport / infantry (LAAT/i)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_aat_tank_imp"
+msgid "<c(B29557)>( I )</c> Armored Assault Tank (AAT)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_tx130_imp"
+msgid "<c(B29557)>( I )</c> TX-130"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_gaw_autoturret"
+msgid "<c(B29557)>( I )</c> A-1 Automatic Turret"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_aat_tank_flamer"
+msgid "<c(B29557)>( II )</c> Armored Assault Tank Flamer (AAT/F)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_haml_tank"
+msgid "<c(B29557)>( II )</c> Heavy Armored Missile Launcher (HAML)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_tx130t_imp"
+msgid "<c(B29557)>( II )</c> TX-130t"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_canderous_tank"
+msgid "<c(B29557)>( II )</c> Canderous-class Assault Tank"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_hag-m_heavy_artillery"
+msgid "<c(B29557)>( III )</c> Heavy Artillery Gun - M (HAG/M)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_ds_turbotower_turret"
+msgid "<c(B29557)>( III )</c> Death Star Turbo-Tower Turret"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_laat_gunship_imp"
+msgid "<c(B29557)>( III )</c> Low Altitude Assault Transport (LAAT)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_gaw_tf_droid_bomber"
+msgid "<c(B29557)>( III )</c> Trade Federation Droid Bomber"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rep_allround"
+msgid "Galactic Alliance"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rep_allround"
+msgid "Galactic Alliance"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rep_allround"
+msgid "Galactic Alliance"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_cis_allround"
+msgid "Dark Side Coalition"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_cis_allround"
+msgid "Dark Side Coalition"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_cis_allround"
+msgid "Dark Side Coalition"
+msgstr ""
+
+msgctxt "mp/army/rep"
+msgid "Light Side"
+msgstr ""
+
+msgctxt "mp/army/cis"
+msgid "Dark Side"
+msgstr ""
+

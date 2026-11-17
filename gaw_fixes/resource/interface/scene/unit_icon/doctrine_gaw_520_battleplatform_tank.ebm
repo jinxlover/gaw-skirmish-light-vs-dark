@@ -1,0 +1,6 @@
+{bitmap
+	{frame "520_battleplatform_tank_00.tga"}
+	{frame "520_battleplatform_tank_01.tga"}
+	{frame "520_battleplatform_tank_02.tga"}
+	{frame "520_battleplatform_tank_03.tga"}
+}

@@ -1,0 +1,42 @@
+;sdl
+
+;	╔════════════════════════════════════════╗
+;	║      LATE WAR July 1943 - 1945         ║
+;	╠═══════╦═══════╦═══════╦═══════╦════════╣
+;	║ AXIS  ║ Ger   ║ Ita   ║ Jap   ║  Fin   ║     
+;	╠═══════╬═══════╬═══════╬═══════╬════════╣    
+;	║ ALLIES║ Rus   ║ Eng   ║ usa   ║        ║
+;	╚═══════╩═══════╩═══════╩═══════╩════════╝
+;_________________________________________________________
+;|              GLOBAL  SETTINGS                         |
+;| this loads setting architecture for declaring units   |
+;|_______________________________________________________|
+(include "/set/multiplayer/units/settings.set")
+(include "/set/multiplayer/units/settings_inf.set")
+
+;_________________________________________________________
+;|              INF SETTINGS                             |
+;| this configures the CP, flag capture power and kill   |
+;| points of the different breeds that make inf squads   |
+;|_______________________________________________________|
+(include "/set/multiplayer/units/late/inf_ger.set") 
+(include "/set/multiplayer/units/late/inf_rus.set")
+(include "/set/multiplayer/units/late/inf_fin.set")
+(include "/set/multiplayer/units/late/inf_usa.set")
+(include "/set/multiplayer/units/late/inf_eng.set")
+
+;_________________________________________________________
+;|            UNIT ROSTERS                               |
+;| this defines the different squads and units available |
+;| and configs their cost, buy menu, cooldowns, etc      |
+;|_______________________________________________________|
+(include "/set/multiplayer/units/late/units_rus.set")
+(include "/set/multiplayer/units/late/units_ger.set")
+(include "/set/multiplayer/units/late/units_fin.set")
+(include "/set/multiplayer/units/late/units_usa.set")
+(include "/set/multiplayer/units/late/units_eng.set")
+;// Galaxy At War skirmish
+(include "/set/multiplayer/units/gaw/inf_rep.set")
+(include "/set/multiplayer/units/gaw/inf_cis.set")
+(include "/set/multiplayer/units/gaw/units_rep_late.set")
+(include "/set/multiplayer/units/gaw/units_cis_late.set")

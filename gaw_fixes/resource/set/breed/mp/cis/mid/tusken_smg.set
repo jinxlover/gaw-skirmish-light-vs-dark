@@ -1,0 +1,26 @@
+{breed
+	{behaviour soldier}
+	{skin "tuskenraider_armor"}
+	{portrait "usa_infantry"}
+	{icon "smg"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality tusken}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Tatooine/- Tusken Raiders/normal/ability.inc")
+		("smg_skill_rank_2")("tier2_standard")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Tatooine/- Tusken Raiders/normal/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "tuskensmg" filled}
+		{item "thompson_mag stick 30 ammo" 150}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_usa"}
+
+		{in_hands 0}
+	}
+}

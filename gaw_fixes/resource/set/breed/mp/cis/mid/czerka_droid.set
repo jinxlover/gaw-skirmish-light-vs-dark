@@ -1,0 +1,24 @@
+{breed
+	{behaviour soldier}
+	{skin "assassin_czerkasecurity"}
+	{portrait "assassin_czerkasecurity"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality cis}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Unknown/- czerka/ability.inc")
+		("smg_skill_rank_2")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Unknown/- czerka/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "czerka_blasterrifle" filled}
+		{item "ammo mandos_blasters" 180}
+
+		{item "bandage_rus" 2.5 0.5}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,25 @@
+{breed
+	{behaviour soldier}
+	{skin "b1_aat_officer"}
+	{portrait "rus_tankman"}
+	{icon "tech"}
+	{icon_priority 0}
+	{nationality cis}
+	{perks
+		(include "/set/breed/mp/cis/mid/ability.inc")
+		("tankman")
+	}
+	{veterancy
+		(include "/set/breed/mp/cis/mid/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "se14_scope_blaster" filled}
+		{item "se14_blasters ammo" 60}
+
+		{item "bandage_rus" 2.5 0.5}
+		{item "b1_antenna_aat"}
+
+		{in_hands 0}
+	}
+}

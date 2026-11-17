@@ -1,0 +1,21 @@
+{breed
+	{behaviour soldier}
+	{skin "geonosian_elite3"}
+	{portrait "rus_regular"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality geonosian}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Geonosis/- geonosians/warriors/ability.inc")
+		("mg_skill_rank_2")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Geonosis/- geonosians/warriors/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sonic_blaster_carbine" filled}
+		{item "ammo geono_blasters" 240}
+		{in_hands 0}
+	}
+}

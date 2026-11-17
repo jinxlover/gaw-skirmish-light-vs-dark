@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "b1_battledroid"}
+	{portrait "ger_sniper"}
+	{icon "sniper"}
+	{icon_priority 1}
+	{nationality cis}
+	{perks
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("rifle_skill_rank_4")
+		("sniper_vision")
+		("stealth")
+	}
+	{veterancy
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "e5_sniper" filled}
+		{item "e5_blasters ammo" 60}
+		{item "thermaldetonator grenade" 2}
+
+		{item "bandage_ger" 4.5 0.5}
+		{item "knife_ger"}
+		{item "b1_backpack"}
+
+		{in_hands 0}
+	}
+}

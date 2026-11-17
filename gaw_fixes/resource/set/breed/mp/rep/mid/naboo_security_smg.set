@@ -1,0 +1,24 @@
+{breed
+	{behaviour soldier}
+	{skin "naboo_security_guard"}
+	{portrait "rus_regular"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality reb}
+	{armors
+		{head naboo_security_hat}
+	}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Naboo/security guard/ability.inc")
+		("smg_skill_rank_2")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Naboo/security guard/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "cr2_blaster" filled}
+		{item "cr_blasters ammo" 240}
+		{in_hands 0}
+	}
+}

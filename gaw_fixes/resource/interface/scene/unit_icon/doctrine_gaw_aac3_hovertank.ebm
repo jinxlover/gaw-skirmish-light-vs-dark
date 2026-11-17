@@ -1,0 +1,6 @@
+{bitmap
+	{frame "aac3_hovertank_00.tga"}
+	{frame "aac3_hovertank_01.tga"}
+	{frame "aac3_hovertank_02.tga"}
+	{frame "aac3_hovertank_03.tga"}
+}

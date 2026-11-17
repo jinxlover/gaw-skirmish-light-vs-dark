@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "galactic_marine_elite"}
+	{portrait "ger_officer"}
+	{icon "smg"}
+	{icon_priority 5}
+	{nationality rep}
+	{armors
+		{head gmarine_officer_helmet}
+	}
+	{perks
+		(include "/set/breed/mp/rep_21st/mid/ability.inc")
+		("smg_skill_rank_3")
+		("binocular_vision")
+	}
+	{veterancy
+		(include "/set/breed/mp/rep_21st/mid/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "dc15s_carbine" filled}
+		{item "dc_blasters ammo" 250}
+		{item "empdetonator grenade" 2}
+		{item "galactic_marine_pauldron"}
+		{item "galactic_marine_backpack"}
+
+		{item "bandage_ger" 3.5 0.5}
+		{item "binocular"}
+
+		{in_hands 0}
+	}
+}

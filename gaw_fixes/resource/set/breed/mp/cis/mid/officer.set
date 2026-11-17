@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "b1_officer"}
+	{portrait "b1_officer"}
+	{icon "smg"}
+	{icon_priority 5}
+	{nationality cis}
+	{perks
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("smg_skill_rank_3")
+		("binocular_vision")
+	}
+	{veterancy
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "e5_blaster" filled}
+		{item "e5_blasters ammo" 250}
+		{item "thermaldetonator grenade" 2}
+
+		{item "bandage_ger" 3.5 0.5}
+		{item "binocular"}
+		{item "b1_antenna"}
+
+		{in_hands 0}
+	}
+}

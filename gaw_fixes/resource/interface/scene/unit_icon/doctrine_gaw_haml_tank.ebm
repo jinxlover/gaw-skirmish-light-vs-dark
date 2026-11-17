@@ -1,0 +1,6 @@
+{bitmap
+	{frame "haml_tank_00.tga"}
+	{frame "haml_tank_01.tga"}
+	{frame "haml_tank_02.tga"}
+	{frame "haml_tank_03.tga"}
+}

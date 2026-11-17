@@ -1,0 +1,6 @@
+{bitmap
+	{frame "gaw_autoturret_00.tga"}
+	{frame "gaw_autoturret_01.tga"}
+	{frame "gaw_autoturret_02.tga"}
+	{frame "gaw_autoturret_03.tga"}
+}

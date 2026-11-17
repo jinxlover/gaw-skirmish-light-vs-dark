@@ -1,0 +1,23 @@
+{breed
+	{behaviour soldier}
+	{skin "bx-commando"}
+	{portrait "bx-droid"}
+	{nationality cisbx}
+	{icon "commandos"}
+	{icon_priority 2}
+	{perks
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("gaw_commando")
+	}
+	{veterancy
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "e5_blaster" filled}
+		{item "e5_blasters ammo" 250}
+		{item "thermaldetonator grenade" 2}
+		{item "bandage_rus" 5}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "tuskenraider_tan"}
+	{portrait "usa_sniper_stealth"}
+	{icon "sniper"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality tusken}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Tatooine/- Tusken Raiders/tan/ability.inc")
+		("rifle_skill_rank_4")("tier4_standard")
+		("stealth")
+		("sniper_vision")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Tatooine/- Tusken Raiders/tan/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "cyclerrifle_lr" filled}
+		{item "rifle_rus clip ammo" 60 5}
+
+		{item "bandage_usa" 3.5 0.5}
+		{item "shovel_usa"}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,30 @@
+{breed
+	{skin "rc-1207"}
+	{hero}
+	{portrait "rc-1207"}
+	{nationality Delta07}
+	{icon "commandos"}
+	{icon_priority 2}
+	{armors
+		{head rc_1207_helmet}
+		{body rc_1207_backpack}
+	}
+	{perks
+		(include "/set/breed/single/Star Wars/Republic/Delta Squad/ability.inc")
+		("gaw_commando")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Republic/Delta Squad/ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "dc17m_blaster" filled}
+		{item "dc17m_sniper" filled}
+		{item "dc_blasters ammo" 450}
+		{item "dc17m_gl" filled}
+		{item "rep_gl_grenade ammo" 8}
+		{item "dc15s_pistol" filled}
+		{item "bandage_rus" 5}
+		{in_hands 0}
+	}
+}

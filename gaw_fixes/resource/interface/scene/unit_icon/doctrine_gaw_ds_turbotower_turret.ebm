@@ -1,0 +1,6 @@
+{bitmap
+	{frame "ds_turbotower_turret_00.tga"}
+	{frame "ds_turbotower_turret_01.tga"}
+	{frame "ds_turbotower_turret_02.tga"}
+	{frame "ds_turbotower_turret_03.tga"}
+}

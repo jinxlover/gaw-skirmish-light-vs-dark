@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "imperial_gunner"}
+	{portrait "ger_artilleryman"}
+	{icon "tech"}
+	{icon_priority 0}
+	{tags "crew"}
+	{nationality imp}
+	{armors
+		{head imperial_gunner_helmet}
+		{body imperial_gunner_chest}
+	}
+	{perks
+		(include "/set/breed/mp/imp/mid/ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+		("skilled_repair")
+		("expert_gun")
+	}
+	{veterancy
+		(include "/set/breed/mp/imp/mid/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "e11b_blaster" filled}
+		{item "ammo e11_blasters" 150}
+		{item "bandage_ger" 1.5 0.5}
+		{in_hands 0}
+	}
+}

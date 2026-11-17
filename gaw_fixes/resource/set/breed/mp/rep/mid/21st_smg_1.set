@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "galactic_marine"}
+	{portrait "rus_regular"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality rep}
+	{armors
+		{head galactic_marine_helmet}
+	}
+	{perks
+		(include "/set/breed/mp/rep_21st/mid/ability.inc")
+		("smg_skill_rank_2")
+	}
+	{veterancy
+		(include "/set/breed/mp/rep_21st/mid/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "dc15s_carbine" filled}
+		{item "dc_blasters ammo" 250}
+		{item "empdetonator grenade" 2}
+		{item "galactic_marine_pauldron"}
+		{item "galactic_marine_backpack"}
+
+		{item "bandage_rus" 3.5 0.5}
+
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "b1_heavy"}
+	{portrait "b1_heavy"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality cis}
+	{perks
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("smg_skill_rank_2")
+		("at_rank_3")
+	}
+	{veterancy
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "e60r_rpg weapon" filled}
+		{item "smartrocket ammo" 4.5 0.5}
+		{item "se14_scope_blaster" filled}
+		{item "se14_blasters ammo" 60}
+
+		{item "thermaldetonator grenade" 2}
+
+		{item "bandage_ger" 3.5 0.5}
+		{item "b1_bigbpack_heavy"}
+
+		{in_hands 0}
+	}
+}

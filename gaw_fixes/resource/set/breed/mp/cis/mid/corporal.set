@@ -1,0 +1,25 @@
+{breed
+	{behaviour soldier}
+	{skin "b1_corporal"}
+	{portrait "b1_corporal"}
+	{icon "smg"}
+	{icon_priority 1}
+	{nationality cis}
+	{perks
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("smg_skill_rank_2")
+	}
+	{veterancy
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "e5_blaster" filled}
+		{item "e5_blasters ammo" 250}
+		{item "thermaldetonator grenade" 2}
+		{item "bandage_rus" 3.5 0.5}
+		{item "b1_backpack_corporal"}
+
+		{in_hands 0}
+	}
+}

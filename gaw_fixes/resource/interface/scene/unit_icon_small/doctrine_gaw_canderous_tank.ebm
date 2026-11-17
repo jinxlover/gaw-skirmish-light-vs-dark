@@ -1,0 +1,6 @@
+{bitmap
+	{frame "canderous_tank_00.tga"}
+	{frame "canderous_tank_01.tga"}
+	{frame "canderous_tank_02.tga"}
+	{frame "canderous_tank_03.tga"}
+}

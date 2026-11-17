@@ -1,0 +1,21 @@
+{breed
+	{skin "chewbacca"}
+	{hero}
+	{portrait "chewbacca"}
+	{nationality wookiee}
+	{icon "commandos"}
+	{icon_priority 2}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Kashyyyk/- wookiees/Heroes/ability.inc")
+		("gaw_wookiees_heroes")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Kashyyyk/- wookiees/Heroes/ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "wookiee_heavycrossbow_ns" filled}
+		{item "bandage_rus" 5}
+		{in_hands 0}
+	}
+}

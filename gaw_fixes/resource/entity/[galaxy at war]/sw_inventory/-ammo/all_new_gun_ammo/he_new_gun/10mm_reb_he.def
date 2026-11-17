@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "aac3_10mm he ammo"}
+	}
+	{Volume "body"
+		{thickness 2}
+		{able {touch} {bullet} {blast}}
+	}
+	{props "steel" "explosive_stuff"}
+	{Extension "disruptor_ammo.mdl"}
+}

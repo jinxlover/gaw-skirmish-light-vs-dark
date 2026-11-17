@@ -1,0 +1,24 @@
+{breed
+	{behaviour soldier}
+	{skin "wookiee_6"}
+	{portrait "rus_regular"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality wookiee}
+	{armors
+		{head wookiee_elder_helmet2}
+	}
+	{perks
+		(include "/set/breed/single/Star Wars/Galaxy/Kashyyyk/- wookiees/elder warriors/ability.inc")
+		("gaw_wookiees")
+	}
+	{veterancy
+		(include "/set/breed/single/Star Wars/Galaxy/Kashyyyk/- wookiees/elder warriors/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "wookiee_heavycrossbow" filled}
+		{item "ammo crossbow_bolts" 240}
+		{in_hands 0}
+	}
+}

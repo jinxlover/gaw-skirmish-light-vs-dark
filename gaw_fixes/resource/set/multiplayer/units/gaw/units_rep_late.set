@@ -1,0 +1,638 @@
+;SDL  Galaxy At War - LIGHT SIDE
+{"gaw_clone_squad(rep)"
+	{charge {delay 0} {interval 30}}
+	{content "mp/rep/mid/officer:1 mp/rep/mid/rifleman_1:6 mp/rep/mid/smg_1:2"}
+	{tags "all infantry rep late"}
+	{group "squad_1"}
+	{button "inf1"}
+	{level 1}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_clone_assault(rep)"
+	{charge {delay 0} {interval 45}}
+	{content "mp/rep/mid/rifleman_1:2 mp/rep/mid/smg_1:6"}
+	{tags "all infantry rep late"}
+	{group "squad_2"}
+	{button "inf1"}
+	{level 1}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_clone_at(rep)"
+	{charge {delay 30} {interval 60}}
+	{content "mp/rep/mid/rifleman_1:2 mp/rep/mid/antitank:3"}
+	{tags "all infantry rep late"}
+	{group "squad_3"}
+	{button "inf1"}
+	{level 1}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_clone_engineers(rep)"
+	{charge {delay 30} {interval 60}}
+	{content "mp/rep/mid/engineer:3 mp/rep/mid/engineer_miner:1"}
+	{tags "all infantry rep late"}
+	{group "squad_4"}
+	{button "inf1"}
+	{level 1}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_naboo_guard(rep)"
+	{charge {delay 0} {interval 40}}
+	{content "mp/rep/mid/naboo_palace_smg:2 mp/rep/mid/naboo_palace_pistol:3 mp/rep/mid/naboo_security_smg:2 mp/rep/mid/naboo_security_pistol:2"}
+	{tags "all infantry rep late"}
+	{group "squad_5"}
+	{button "inf1"}
+	{level 1}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_wookiee_warriors(rep)"
+	{charge {delay 30} {interval 60}}
+	{content "mp/rep/mid/wook_chief_bowcaster:1 mp/rep/mid/wook_bowcaster:4 mp/rep/mid/wook_heavy:2 mp/rep/mid/wook_sidearm:1"}
+	{tags "all infantry rep late"}
+	{group "squad_6"}
+	{button "inf1"}
+	{level 1}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_clone_sniper(rep)"
+	{charge {delay 60} {interval 90}}
+	{content "mp/rep/mid/sniper:2"}
+	{tags "all infantry rep late"}
+	{group "squad_7"}
+	{button "inf2"}
+	{level 1}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"doctrine_gaw_21st_squad(rep)"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "mp/rep/mid/21st_officer:1 mp/rep/mid/21st_rifleman_1:5 mp/rep/mid/21st_smg_1:3"}
+	{charge {delay 300} {interval 240}}
+	{group "doctrine_t1"}
+	{doctrine late_rep_allround}
+	{cost 10}
+}
+{"doctrine_gaw_wookiee_elders(rep)"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "mp/rep/mid/wook_chief_heavy:1 mp/rep/mid/wook_elder_bowcaster:4 mp/rep/mid/wook_elder_heavy:2"}
+	{charge {delay 300} {interval 240}}
+	{group "doctrine_t1"}
+	{doctrine late_rep_allround}
+	{cost 15}
+}
+{"doctrine_gaw_65th_squad(rep)"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "mp/rep/mid/65th_rifleman_1:5 mp/rep/mid/65th_smg_1:3 mp/rep/mid/65th_antitank:2"}
+	{charge {delay 900} {interval 300}}
+	{group "doctrine_t2"}
+	{doctrine late_rep_allround}
+	{cost 20}
+}
+{"doctrine_gaw_naboo_royal(rep)"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "mp/rep/mid/naboo_palace_smg_elite:6"}
+	{charge {delay 900} {interval 300}}
+	{group "doctrine_t2"}
+	{doctrine late_rep_allround}
+	{cost 15}
+}
+{"doctrine_gaw_delta_squad(rep)"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "mp/rep/mid/delta_boss:1 mp/rep/mid/delta_fixer:1 mp/rep/mid/delta_scorch:1 mp/rep/mid/delta_sev:1"}
+	{charge {delay 1800} {interval 480}}
+	{group "doctrine_t3"}
+	{doctrine late_rep_allround}
+	{cost 60}
+}
+{"doctrine_gaw_wookiee_heroes(rep)"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "mp/rep/mid/chewbacca:1 mp/rep/mid/tarfful:1"}
+	{charge {delay 1800} {interval 480}}
+	{group "doctrine_t3"}
+	{doctrine late_rep_allround}
+	{cost 60}
+}
+{"doctrine_gaw_21st_snipers(rep)"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "mp/rep/mid/21st_sniper:2 mp/rep/mid/65th_sniper:1"}
+	{charge {delay 1800} {interval 360}}
+	{group "doctrine_t3"}
+	{doctrine late_rep_allround}
+	{cost 40}
+}
+{"105k_lancerbike"
+	{charge {delay 60} {interval 60}}
+	{tags "all light rep late"}
+	{group "light17"}
+	{button "vehicles"}
+	{cost 140}
+	{score 7}
+	{cw 1}
+	{cp 4}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"v25_speeder"
+	{charge {delay 60} {interval 60}}
+	{tags "all light rep late"}
+	{group "light18"}
+	{button "vehicles"}
+	{cost 150}
+	{score 7.5}
+	{cw 1}
+	{cp 4}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"v19_speeder"
+	{charge {delay 90} {interval 60}}
+	{tags "all light rep late"}
+	{group "light19"}
+	{button "vehicles"}
+	{cost 170}
+	{score 8.5}
+	{cw 1}
+	{cp 5}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"infantry_support_platform"
+	{charge {delay 120} {interval 90}}
+	{tags "all light rep late"}
+	{group "light20"}
+	{button "vehicles"}
+	{cost 260}
+	{score 13}
+	{cw 2}
+	{cp 8}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"tx130"
+	{charge {delay 240} {interval 90}}
+	{tags "all medium rep late"}
+	{group "medium21"}
+	{button "tanks"}
+	{cost 420}
+	{score 21}
+	{cw 3}
+	{cp 12}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"tx130s"
+	{charge {delay 300} {interval 120}}
+	{tags "all medium rep late"}
+	{group "medium22"}
+	{button "tanks"}
+	{cost 480}
+	{score 24}
+	{cw 3}
+	{cp 14}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"t1b_hovertank"
+	{charge {delay 240} {interval 90}}
+	{tags "all medium rep late"}
+	{group "medium23"}
+	{button "tanks"}
+	{cost 400}
+	{score 20}
+	{cw 3}
+	{cp 12}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"t2a_hovertank"
+	{charge {delay 300} {interval 120}}
+	{tags "all medium rep late"}
+	{group "medium24"}
+	{button "tanks"}
+	{cost 460}
+	{score 23}
+	{cw 3}
+	{cp 14}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"aac1_hovertank"
+	{charge {delay 360} {interval 120}}
+	{tags "all medium rep late"}
+	{group "medium25"}
+	{button "tanks"}
+	{cost 500}
+	{score 25}
+	{cw 3}
+	{cp 15}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{doctrine late_rep_allround}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"tx130g"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium26"}
+	{button "tanks"}
+	{cost 500}
+	{score 25}
+	{cw 3}
+	{cp 14}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_tx130g"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "tx130g ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 300} {interval 300}}
+	{group "doctrine_t1"}
+	{doctrine late_rep_allround}
+	{cost 30}
+}
+{"t1bm_hovertank"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium27"}
+	{button "tanks"}
+	{cost 450}
+	{score 22.5}
+	{cw 3}
+	{cp 13}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_t1bm_hovertank"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "t1bm_hovertank ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 300} {interval 300}}
+	{group "doctrine_t1"}
+	{doctrine late_rep_allround}
+	{cost 30}
+}
+{"aat_tank_reb"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium28"}
+	{button "tanks"}
+	{cost 560}
+	{score 28}
+	{cw 4}
+	{cp 16}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_aat_tank_reb"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "aat_tank_reb ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 300} {interval 300}}
+	{group "doctrine_t1"}
+	{doctrine late_rep_allround}
+	{cost 35}
+}
+{"tx130t"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium29"}
+	{button "tanks"}
+	{cost 560}
+	{score 28}
+	{cw 4}
+	{cp 16}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_tx130t"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "tx130t ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 900} {interval 300}}
+	{group "doctrine_t2"}
+	{doctrine late_rep_allround}
+	{cost 45}
+}
+{"tx130m"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium30"}
+	{button "tanks"}
+	{cost 560}
+	{score 28}
+	{cw 4}
+	{cp 16}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_tx130m"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "tx130m ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 900} {interval 300}}
+	{group "doctrine_t2"}
+	{doctrine late_rep_allround}
+	{cost 45}
+}
+{"t2b_hovertank"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium31"}
+	{button "tanks"}
+	{cost 520}
+	{score 26}
+	{cw 3}
+	{cp 15}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_t2b_hovertank"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "t2b_hovertank ( mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 900} {interval 300}}
+	{group "doctrine_t2"}
+	{doctrine late_rep_allround}
+	{cost 40}
+}
+{"aac3_hovertank"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium32"}
+	{button "tanks"}
+	{cost 540}
+	{score 27}
+	{cw 4}
+	{cp 16}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_aac3_hovertank"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "aac3_hovertank ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 900} {interval 300}}
+	{group "doctrine_t2"}
+	{doctrine late_rep_allround}
+	{cost 45}
+}
+{"m2b_hovertank"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium33"}
+	{button "tanks"}
+	{cost 520}
+	{score 26}
+	{cw 3}
+	{cp 15}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_m2b_hovertank"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "m2b_hovertank ( mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 900} {interval 300}}
+	{group "doctrine_t2"}
+	{doctrine late_rep_allround}
+	{cost 40}
+}
+{"wookiee_battle_scythe"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium34"}
+	{button "tanks"}
+	{cost 600}
+	{score 30}
+	{cw 4}
+	{cp 18}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_wookiee_battle_scythe"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "wookiee_battle_scythe ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 900} {interval 300}}
+	{group "doctrine_t2"}
+	{doctrine late_rep_allround}
+	{cost 50}
+}
+{"tx130_com"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium35"}
+	{button "tanks"}
+	{cost 650}
+	{score 32.5}
+	{cw 4}
+	{cp 20}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_tx130_com"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "tx130_com ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 1800} {interval 300}}
+	{group "doctrine_t3"}
+	{doctrine late_rep_allround}
+	{cost 70}
+}
+{"tx80"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium36"}
+	{button "tanks"}
+	{cost 620}
+	{score 31}
+	{cw 4}
+	{cp 20}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_tx80"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "tx80 ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 1800} {interval 300}}
+	{group "doctrine_t3"}
+	{doctrine late_rep_allround}
+	{cost 65}
+}
+{"520_battleplatform_tank"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium37"}
+	{button "tanks"}
+	{cost 900}
+	{score 45}
+	{cw 4}
+	{cp 28}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_520_battleplatform_tank"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "520_battleplatform_tank ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 1800} {interval 300}}
+	{group "doctrine_t3"}
+	{doctrine late_rep_allround}
+	{cost 90}
+}
+{"laat_gunship"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium38"}
+	{button "tanks"}
+	{cost 900}
+	{score 45}
+	{cw 4}
+	{cp 28}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_laat_gunship"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "laat_gunship ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 1800} {interval 300}}
+	{group "doctrine_t3"}
+	{doctrine late_rep_allround}
+	{cost 100}
+}
+{"laat-i_gunship"
+	{charge {delay 0} {interval 0}}
+	{tags "all doctrineonly medium rep late"}
+	{group "medium39"}
+	{button "tanks"}
+	{cost 950}
+	{score 47.5}
+	{cw 4}
+	{cp 30}
+	{content "* ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+}
+{"doctrine_gaw_laat-i_gunship"
+	{level 1}
+	{research_stage 1}
+	{squad_cost_factor 0}
+	{tags "all doctrine rep late"}
+	{button "doctrine"}
+	{content "laat-i_gunship ( mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman mp/rep/mid/tankman )"}
+	{charge {delay 1800} {interval 300}}
+	{group "doctrine_t3"}
+	{doctrine late_rep_allround}
+	{cost 110}
+}

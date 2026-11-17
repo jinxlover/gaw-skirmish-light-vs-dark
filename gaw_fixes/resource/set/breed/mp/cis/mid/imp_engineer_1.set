@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "imperial_gunner"}
+	{portrait "ger_engineer"}
+	{icon "tech"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality imp}
+	{armors
+		{head imperial_gunner_helmet}
+		{body imperial_gunner_chest}
+	}
+	{perks
+		(include "/set/breed/mp/imp/mid/ability.inc")
+		("rifle_skill_rank_2")("tier2_standard")
+		("engineer")
+	}
+	{veterancy
+		(include "/set/breed/mp/imp/mid/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "e10s_blaster" filled}
+		{item "ammo e11_blasters" 150}
+		{item "bandage_ger" 3.5 0.5}
+		{item "mine_detector"}
+		{item "wirecutters"}
+		{item "shovel_ger"}
+		{item "pickaxe"}
+		{item "dynamite_ger_x7" 1}
+		{in_hands 0}
+	}
+}

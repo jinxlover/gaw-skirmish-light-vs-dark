@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "galactic_marine"}
+	{portrait "rus_regular"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality rep}
+	{armors
+		{head galactic_marine_helmet}
+	}
+	{perks
+		(include "/set/breed/mp/rep_21st/mid/ability.inc")
+		("tankman")
+	}
+	{veterancy
+		(include "/set/breed/mp/rep_21st/mid/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "dc17_pistol" filled}
+		{item "dc_blasters ammo" 50}
+		{item "bandage_rus" 3.5 0.5}
+		{item "galactic_marine_pauldron"}
+		{item "galactic_marine_backpack"}
+		{in_hands 0}
+	}
+}

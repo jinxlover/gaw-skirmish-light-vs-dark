@@ -1,0 +1,6 @@
+{bitmap
+	{frame "m2b_hovertank_00.tga"}
+	{frame "m2b_hovertank_01.tga"}
+	{frame "m2b_hovertank_02.tga"}
+	{frame "m2b_hovertank_03.tga"}
+}
