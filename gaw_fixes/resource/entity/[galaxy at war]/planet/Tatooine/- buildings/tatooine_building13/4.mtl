@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/[gaw_planets]/tatooine/stco_cream_tower_fallback"}
+	{blend none}
+}

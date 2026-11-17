@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "stco_filler_slum_base"}
+	{blend none}
+}

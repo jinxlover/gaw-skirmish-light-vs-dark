@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "thm_tato_metl_rust"}
+	{specular "thm_tato_metl_rust_spec"}
+	{color "229 229 229 25"}
+	{blend none}
+}

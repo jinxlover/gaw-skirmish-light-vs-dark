@@ -1,0 +1,135 @@
+-= Animation: open, Node body =-
+	Frame 0 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 15 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+-= Animation: close, Node body =-
+	Frame 30 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 40 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+-= Animation: open, Node door =-
+	Frame 0 {
+		Visibility 1
+		Position	-15.3003	15.8789	24.8468
+		Orientation	0 0 0.00303101 0.999995
+	}
+	Frame 1 {
+		Orientation	0 0 -0.0182717 0.999833
+	}
+	Frame 2 {
+		Orientation	0 0 -0.0729826 0.997333
+	}
+	Frame 3 {
+		Orientation	0 0 -0.147054 0.989129
+	}
+	Frame 4 {
+		Orientation	0 0 -0.226217 0.974077
+	}
+	Frame 5 {
+		Orientation	0 0 -0.29662 0.954995
+	}
+	Frame 6 {
+		Orientation	0 0 -0.360575 0.93273
+	}
+	Frame 7 {
+		Orientation	0 0 -0.426414 0.904528
+	}
+	Frame 8 {
+		Orientation	0 0 -0.490316 0.871545
+	}
+	Frame 9 {
+		Orientation	0 0 -0.548895 0.835891
+	}
+	Frame 10 {
+		Orientation	0 0 -0.599337 0.800497
+	}
+	Frame 11 {
+		Orientation	0 0 -0.646372 0.763023
+	}
+	Frame 12 {
+		Orientation	0 0 -0.691742 0.722145
+	}
+	Frame 13 {
+		Orientation	0 0 -0.729571 0.683906
+	}
+	Frame 14 {
+		Orientation	0 0 -0.755223 0.655468
+	}
+	Frame 15 {
+		Visibility 1
+		Position	-15.3003	15.8789	24.8468
+		Orientation	0 0 -0.764707 0.644378
+	}
+-= Animation: close, Node door =-
+	Frame 30 {
+		Visibility 1
+		Position	-15.3003	15.8789	24.8468
+		Orientation	0 0 -0.587245 0.80941
+	}
+	Frame 31 {
+		Orientation	0 0 -0.541687 0.84058
+	}
+	Frame 32 {
+		Orientation	0 0 -0.466258 0.884649
+	}
+	Frame 33 {
+		Orientation	0 0 -0.373719 0.927542
+	}
+	Frame 34 {
+		Orientation	0 0 -0.28005 0.959986
+	}
+	Frame 35 {
+		Orientation	0 0 -0.203637 0.979046
+	}
+	Frame 36 {
+		Orientation	0 0 -0.143133 0.989703
+	}
+	Frame 37 {
+		Orientation	0 0 -0.0877135 0.996146
+	}
+	Frame 38 {
+		Orientation	0 0 -0.04226 0.999107
+	}
+	Frame 39 {
+		Orientation	0 0 -0.0115659 0.999933
+	}
+	Frame 40 {
+		Visibility 1
+		Position	-15.3003	15.8789	24.8468
+		Orientation	0 0 -0.000308201 1
+	}
+-= Animation: open, Node land =-
+	Frame 0 {
+		Visibility 1
+		Position	0.000256691	-3.32091e-005	0.830902
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 1
+		Position	0.000256691	-3.32091e-005	0.830902
+		Orientation	0 0 0 1
+	}
+-= Animation: close, Node land =-
+	Frame 30 {
+		Visibility 1
+		Position	0.000256691	-3.32091e-005	0.830902
+		Orientation	0 0 0 1
+	}
+	Frame 40 {
+		Visibility 1
+		Position	0.000256691	-3.32091e-005	0.830902
+		Orientation	0 0 0 1
+	}

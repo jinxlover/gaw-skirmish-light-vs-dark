@@ -1,0 +1,10 @@
+{entity 
+	{DecalView 
+		{Sprite "bloodsplash.mtl" 
+		}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+} 
+

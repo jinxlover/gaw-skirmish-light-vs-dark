@@ -1,0 +1,21 @@
+;Exported by: Julien
+;Date:        Sat Jan 13 13:12:35 2018
+;File:        D:\Utilistateurs\ACER\Documents\Crate_Tutorial\models\models\geonosis_bridge3.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "bridge"
+			{Position 0	0	-3.24249e-05}
+			{VolumeView "bridge.ply"}
+			{bone "land"
+				{parameters "Land;Ground;"}
+				{Position 0	0.770547	121.4}
+				{VolumeView "land.ply" {Ground}}
+			}
+		}
+	}
+}

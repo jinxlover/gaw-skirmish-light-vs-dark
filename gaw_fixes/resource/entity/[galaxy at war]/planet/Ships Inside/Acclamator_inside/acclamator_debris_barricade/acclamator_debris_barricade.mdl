@@ -1,0 +1,117 @@
+;Exported by: Master Mythic
+;Date:        Wed Jan  2 22:06:48 2019
+;File:        M:\Mythics stuff\Modding\Crate_Tutorial\exporting procces -3ds max format\Prop_tutorial.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "rasbarricadea"
+			{parameters "ID=body;"}
+			{Matrix34
+				-0.999994	-0.00341334	0
+				0.00341334	-0.999994	0
+				0	0	1
+				0	0	-3.24249e-05
+			}
+			{VolumeView "rasbarricadea.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.0225867 0.0414635}
+		{Extent 10.3653 10.7837}
+		{Axis 0.342602 0.939481}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol_1"
+	{Obb2
+		{Center -42.2717 8.71612}
+		{Extent 17.9593 15.0852}
+		{Axis 0.342602 0.939481}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol_2"
+	{Obb2
+		{Center 41.3873 -6.9082}
+		{Extent 29.6494 12.5107}
+		{Axis 0.242574 0.970133}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol_4"
+	{Obb2
+		{Center -0.740416 1.6593}
+		{Extent 10.3332 35.8381}
+		{Axis 0.326162 0.945314}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol_5"
+	{Obb2
+		{Center -0.906922 3.02018}
+		{Extent 13.2821 35.7935}
+		{Axis 0.276267 0.961081}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "basis"}
+	{Matrix34
+		-0.999994	-0.00341335	0
+		0.00341334	-0.999994	0
+		0	0	1
+		0.0381276	0.118282	-3.24572e-05
+	}
+}
+{Volume "body_vol_1"
+	{Polyhedron "body_vol_1.vol"}
+	{Bone "basis"}
+	{Matrix34
+		-0.999994	-0.00341335	0
+		0.00341334	-0.999994	0
+		0	0	1
+		-40.7102	-15.2359	-1.12003e-05
+	}
+}
+{Volume "body_vol_2"
+	{Polyhedron "body_vol_2.vol"}
+	{Bone "basis"}
+	{Matrix34
+		-0.999994	-0.00341335	0
+		0.00341334	-0.999994	0
+		0	0	1
+		39.8631	13.4257	-5.30303e-05
+	}
+}
+{Volume "body_vol_4"
+	{Polyhedron "body_vol_4.vol"}
+	{Bone "basis"}
+	{Matrix34
+		-0.999994	-0.00341335	0
+		0.00341334	-0.999994	0
+		0	0	1
+		0.0381429	0.118285	32.2213
+	}
+}
+{Volume "body_vol_5"
+	{Polyhedron "body_vol_5.vol"}
+	{Bone "basis"}
+	{Matrix34
+		-0.999994	-0.00341335	0
+		0.00341334	-0.999994	0
+		0	0	1
+		0.0381276	0.118282	-3.24572e-05
+	}
+}

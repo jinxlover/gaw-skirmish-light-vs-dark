@@ -1,0 +1,19 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{ObstacleId "construction"}
+	{props  "blastdoor_open_close" "steel"}
+	{extender "structure_bone"}
+
+	{Extension "tatooine_door.mdl"}
+
+	{Volume "close"
+		{Tags  "body"}
+		{Able {bullet 0} {obstacle 0} {touch}}
+		{Thickness 40}
+	}
+	{Volume "switch"
+		{Tags  "body" "fire" "door_lock"}
+		{Able {bullet 1} {obstacle 0} {touch}}
+		{Thickness 40}
+	}
+}

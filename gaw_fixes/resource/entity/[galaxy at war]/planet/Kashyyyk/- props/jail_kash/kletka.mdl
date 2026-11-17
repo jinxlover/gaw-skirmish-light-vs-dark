@@ -1,0 +1,92 @@
+;Exported by: Juju44330
+;Date:        Wed Mar 15 09:18:02 2011
+;File:        C:\Users\Juju44330\Desktop\models\mini_prison.max
+{Skeleton
+	{animation
+		{sequence "open" {speed 0.05}}
+		{sequence "close" {speed 0.05}}
+	}
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "door"
+			{Matrix34
+				0.999982	-0.00606199	0
+				0.00606199	0.999982	0
+				0	0	1
+				-15.3003	15.8789	24.8468
+			}
+			{VolumeView "door.ply"}
+		}
+		{bone "land"
+{parameters "Land;Ground;"}
+			{Position 0.000256691	-3.32091e-005	0.830902}
+			{VolumeView "land.ply" {Ground} {DecalTarget}}
+		}
+	}
+}
+{Obstacle "box02"
+	{Obb2
+		{Center 16.9437 -0.108002}
+		{Extent 1.09387 16.6736}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box03"
+	{Obb2
+		{Center -0.655338 15.6565}
+		{Extent 16.8273 0.909124}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "box04"
+	{Obb2
+		{Center -16.5925 -0.108002}
+		{Extent 1.09387 16.6736}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "close"
+	{Obb2
+		{Center 0.238987 -15.7901}
+		{Extent 15.3163 1.00192}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "box01"
+	{Polyhedron "box01.vol"}
+	{Bone "body"}
+	{Position -0.163254	0.0257645	48.5825}
+}
+{Volume "box02"
+	{Polyhedron "box02.vol"}
+	{Bone "body"}
+	{Position 16.9437	0.108002	23.65}
+}
+{Volume "box03"
+	{Polyhedron "box03.vol"}
+	{Bone "body"}
+	{Position -0.655334	-15.6565	23.65}
+}
+{Volume "box04"
+	{Polyhedron "box04.vol"}
+	{Bone "body"}
+	{Position -16.5925	0.108002	23.65}
+}
+{Volume "door"
+	{Polyhedron "door.vol"}
+	{Bone "door"}
+	{Position 15.5396	0.00532341	-1.19689}
+}

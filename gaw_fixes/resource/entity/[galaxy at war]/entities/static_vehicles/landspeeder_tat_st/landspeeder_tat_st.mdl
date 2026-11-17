@@ -1,0 +1,85 @@
+;Exported by: Julien
+;Date:        Fri Jun 21 22:07:26 2019
+;File:        G:\Star Wars\Crate_Tutorial\models\models\landspeeder_tat_st.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Position 0	0	-3.24249e-05}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+				{VolumeView "body_lod2.ply"}
+			}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 7.62939e-06 51.9923}
+		{Extent 59.8771 46.6109}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 2.09808e-05 94.9994}
+		{Extent 62.3683 24.0853}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 1.71661e-05 46.4798}
+		{Extent 19.5728 19.2754}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 7.62939e-06 -68.6942}
+		{Extent 44.1011 44.1011}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 7.62939e-06 42.7764}
+		{Extent 43.384 67.5127}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 119.754 93.2218 12}
+	{Bone "body"}
+	{Position 0	-51.9923	16.4523}
+}
+{Volume "body2"
+	{Box 124.737 48.1707 7}
+	{Bone "body"}
+	{Position 0	-94.9994	47.6248}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Position 0	-46.4798	38.4817}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "body"}
+	{Position 0	68.6942	5.30445}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 0	-45.5386	5.10246}
+}

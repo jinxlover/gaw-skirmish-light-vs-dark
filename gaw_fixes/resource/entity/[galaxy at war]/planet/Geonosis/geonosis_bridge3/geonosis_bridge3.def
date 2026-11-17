@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "concrete"}
+	{obstacleid "unbreakable"}
+	("armor_heavy" args 1.0)
+
+	{Extension "geonosis_bridge3.mdl"}
+
+	{Extender "land_patch"
+		{TerrainType "road" "bridge"}
+	}
+}

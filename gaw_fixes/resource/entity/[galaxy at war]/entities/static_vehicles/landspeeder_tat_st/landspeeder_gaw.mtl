@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/[gaw_vehicles]/galaxy/tanks/landspeeders/tatooine/landspeeder_tat"}
+	{bump "$/[gaw_vehicles]/galaxy/tanks/landspeeders/tatooine/landspeeder_tat_bp"}
+	{specular "$/[gaw_vehicles]/galaxy/tanks/landspeeders/tatooine/landspeeder_tat_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

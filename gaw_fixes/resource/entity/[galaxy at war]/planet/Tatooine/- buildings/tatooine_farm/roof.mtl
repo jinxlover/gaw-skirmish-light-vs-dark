@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "tat_up"}
+	{blend none}
+}

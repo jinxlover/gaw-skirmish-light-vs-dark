@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "dea1_prop_barrel_crate"}
+	{blend none}
+}

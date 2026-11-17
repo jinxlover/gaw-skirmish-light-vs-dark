@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "stco_filler_b_base"}
+	{blend none}
+}

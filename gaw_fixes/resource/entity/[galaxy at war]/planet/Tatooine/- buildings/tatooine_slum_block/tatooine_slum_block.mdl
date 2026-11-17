@@ -1,0 +1,147 @@
+;Exported by: Julien
+;Date:        Sun Feb 07 13:26:47 2016
+;File:        C:\Users\Julien\Documents\Crate_Tutorial\exporting procces -3ds max format\models\tatooine_slum_block.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				0	0	-3.24249e-005
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -17.2026 -127.185}
+		{Extent 70 100}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -17.5579 -233.026}
+		{Extent 68.7574 7.42267}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 98.7258 -75.0584}
+		{Extent 14.75 9.25}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 83.2075 53.3959}
+		{Extent 14.6018 7.61642}
+		{Axis 0.992554 0.121808}
+	}
+	{Rotate}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 58.2049 -118.012}
+		{Extent 5.95768 13}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center 69.1609 151.851}
+		{Extent 10.8528 17.0392}
+		{Axis 0.956349 0.292228}
+	}
+	{Rotate}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -12.8001 95.7059}
+		{Extent 82.5 144.547}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 140 200 200}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-127.185	-17.2027	100
+	}
+}
+{Volume "body2"
+	{Box 137.515 14.8453 78.9147}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-233.026	-17.5579	39.4573
+	}
+}
+{Volume "body3"
+	{Box 29.5 18.5 50}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-75.0585	98.7258	25
+	}
+}
+{Volume "body4"
+	{Box 29.1047 15.0407 50}
+	{Bone "body"}
+	{Matrix34
+		0.11524	0.993338	0
+		-0.993338	0.11524	0
+		0	0	1
+		53.3959	83.2075	25
+	}
+}
+{Volume "body5"
+	{Box 11.9153 26 50}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-118.012	58.2049	25
+	}
+}
+{Volume "body6"
+	{Box 21.547 33.9779 50}
+	{Bone "body"}
+	{Matrix34
+		0.287751	0.957705	0
+		-0.957705	0.287751	0
+		0	0	1
+		151.851	69.161	25
+	}
+}
+{Volume "body"
+	{Box 165 289.093 150}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		95.706	-12.8001	75
+	}
+}

@@ -1,0 +1,20 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "acclamator_debris_pile_1.mdl"}
+	{props "flag" "steel"}
+	{Volume "body"
+		{Tags  "body"}
+		{able {visible 1}}
+		{able {touch}}		
+	}
+	{Volume "body_vol_1"
+		{Tags  "body"}
+		{able {visible 1}}
+		{able {touch}}
+	}
+	{Volume "body_vol_2"
+		{Tags  "body"}
+		{able {visible 1}}
+		{able {touch}}
+	}
+}

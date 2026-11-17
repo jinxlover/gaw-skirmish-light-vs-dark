@@ -1,0 +1,79 @@
+;Exported by: Master Mythic
+;Date:        Wed Jan  2 20:58:51 2019
+;File:        M:\Mythics stuff\Modding\Crate_Tutorial\exporting procces -3ds max format\Prop_tutorial.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				-0.999994	-0.00341334	0
+				0.00341334	-0.999994	0
+				0	0	1
+				0	0	-3.24249e-05
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -4.17797 -8.28639}
+		{Extent 14.4407 28.6692}
+		{Axis 0.157142 0.987576}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol_1"
+	{Obb2
+		{Center -11.617 10.4206}
+		{Extent 19.6362 5.25121}
+		{Axis 0.43888 0.898546}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol_2"
+	{Obb2
+		{Center 5.34858 -10.4973}
+		{Extent 5.60951 14.7128}
+		{Axis 0.276267 0.961081}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "basis"}
+	{Matrix34
+		-0.999994	-0.00341335	0
+		0.00341334	-0.999994	0
+		0	0	1
+		0.0381276	0.118282	-3.24572e-05
+	}
+}
+{Volume "body_vol_1"
+	{Polyhedron "body_vol_1.vol"}
+	{Bone "basis"}
+	{Matrix34
+		-0.262114	0.965037	0
+		-0.965037	-0.262114	0
+		0	0	1
+		-16.1449	-21.4794	-2.21712e-05
+	}
+}
+{Volume "body_vol_2"
+	{Polyhedron "body_vol_2.vol"}
+	{Bone "basis"}
+	{Matrix34
+		-0.935814	-0.0903506	-0.340718
+		0.0852995	-0.99591	0.0298091
+		-0.342018	-0.00116732	0.939693
+		11.4332	2.43346	24.7247
+	}
+}

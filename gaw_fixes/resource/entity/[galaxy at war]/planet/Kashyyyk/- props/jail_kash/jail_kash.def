@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "kletka.mdl"}
+	{props "parts" "construction" "small" "gate" "lock" "steel" "no_destroyed_stamp" "disable_area"}
+	{extender "structure_bone"	
+		{hold "1" "2"}		
+	}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge"}
+                            {on 1}
+		{updateEntities 1}
+		{Nonormals 1}
+	}
+}

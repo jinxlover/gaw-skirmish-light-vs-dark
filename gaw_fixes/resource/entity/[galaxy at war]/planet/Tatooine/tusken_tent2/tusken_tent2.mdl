@@ -1,0 +1,38 @@
+;Exported by: Julien
+;Date:        Tue Apr 05 18:30:46 2016
+;File:        C:\Users\Julien\Documents\Crate_Tutorial\exporting procces -3ds max format\models\tusken_tent2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				0	0	-3.24249e-005
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0 3.8147e-006}
+		{Extent 73.2154 72.1031}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Orientation
+		1	0	0
+		0	0	-1
+		0	1	0
+	}
+}

@@ -1,0 +1,127 @@
+;Exported by: Julien
+;Date:        Thu Apr 28 02:25:07 2016
+;File:        C:\Users\Julien\Documents\Crate_Tutorial\exporting procces -3ds max format\models\tatooine_door.max
+{Skeleton
+	{animation
+		{sequence "open" {speed 0.5}}
+		{sequence "close" {speed 0.5}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				0	-0.000122012	-3.24249e-005
+			}
+			{VolumeView "body.ply"}
+			{bone "door"
+				{Position -0.000122094	0	0}
+				{VolumeView "door.ply"}
+			}
+			{bone "light2"
+				{Matrix34
+					0	1	0
+					-1	0	0
+					0	0	1
+					21.8487	10.3735	22.0186
+				}
+			}
+			{bone "light1"
+				{Matrix34
+					0	-1	0
+					1	0	0
+					0	0	1
+					21.8488	-10.2254	22.0185
+				}
+			}
+			{bone "panel2"
+				{Matrix34
+					0	1	0
+					-1	0	0
+					0	0	1
+					21.8133	0	21.9041
+				}
+				{VolumeView "panel2.ply"}
+			}
+			{bone "panel1"
+				{Matrix34
+					0	-1	0
+					-1	0	0
+					0	0	1
+					21.8133	0	21.9041
+				}
+				{VolumeView "panel1.ply"}
+			}
+		}
+	}
+}
+{Obstacle "close_l"
+	{Obb2
+		{Center 1.4782e-005 -21.7538}
+		{Extent 9.24813 5.33834}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "close_r"
+	{Obb2
+		{Center -5.19753e-005 21.7932}
+		{Extent 9.24813 5.33835}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "close"
+	{Obb2
+		{Center 0.0502169 0}
+		{Extent 3.60903 16.5414}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "close_l"
+	{Box 18.4962 10.6767 57}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-21.7539	0	26.3445
+	}
+}
+{Volume "close_r"
+	{Box 18.4962 10.6767 57}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		21.7931	-5.95652e-005	26.3445
+	}
+}
+{Volume "close"
+	{Box 7.21804 33.0827 46.5}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-0.000122039	0.0502077	23.25
+	}
+}
+{Volume "switch"
+	{Polyhedron "switch.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		21.8488	0.824145	22.0185
+	}
+}

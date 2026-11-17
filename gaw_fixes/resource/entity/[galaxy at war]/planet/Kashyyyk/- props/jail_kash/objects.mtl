@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/decor/planks_2"}
+	{bump "$/decor/planks_2_height"}
+	{blend none}
+}

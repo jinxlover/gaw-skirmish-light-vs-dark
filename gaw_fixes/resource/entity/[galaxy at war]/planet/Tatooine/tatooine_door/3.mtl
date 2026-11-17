@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "stco_filler_b_base4"}
+	{specular "stco_filler_b_base4_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

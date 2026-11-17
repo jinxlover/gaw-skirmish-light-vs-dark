@@ -1,0 +1,8 @@
+{material simple
+	{diffuse "bloody2"
+		{Axis 8 8}
+		{AlphaChannel 1}
+	}
+	{Blend blend}
+}
+

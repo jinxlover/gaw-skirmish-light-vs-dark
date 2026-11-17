@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/[gaw_walls]/e9026d3d"}
+	{blend none}
+}

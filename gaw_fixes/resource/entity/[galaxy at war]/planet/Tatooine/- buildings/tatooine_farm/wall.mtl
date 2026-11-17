@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "tat_bldg_moisturefarm_1"}
+	{blend none}
+}

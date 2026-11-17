@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "tatt_door1"}
+	{specular "tatt_door1_spec"}
+	{color "229 229 229 25"}
+	{blend none}
+}

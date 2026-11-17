@@ -1,0 +1,334 @@
+;Exported by: Julien
+;Date:        Tue Apr 05 18:20:12 2016
+;File:        C:\Users\Julien\Documents\Crate_Tutorial\exporting procces -3ds max format\models\tatooine_farm.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				0	0	-3.24249e-005
+			}
+			{VolumeView "body.ply"}
+			{bone "land"
+				{parameters "Land;Ground;"}
+				{Position 0	0	0}
+				{VolumeView "land.ply" {Ground}}
+			}
+		}
+	}
+}
+{Obstacle "body10"
+	{Obb2
+		{Center 77.7261 53.8305}
+		{Extent 15.1131 22.8388}
+		{Axis 0.829206 0.558943}
+	}
+	{Rotate}
+}
+{Obstacle "body11"
+	{Obb2
+		{Center 52.5513 79.2418}
+		{Extent 15.0075 22.7693}
+		{Axis 0.559604 0.82876}
+	}
+	{Rotate}
+}
+{Obstacle "body12"
+	{Obb2
+		{Center -52.5515 -79.242}
+		{Extent 15.0075 22.7693}
+		{Axis 0.559604 0.82876}
+	}
+	{Rotate}
+}
+{Obstacle "body13"
+	{Obb2
+		{Center -52.5515 79.242}
+		{Extent 22.7714 15.0106}
+		{Axis 0.829206 0.558943}
+	}
+	{Rotate}
+}
+{Obstacle "body14"
+	{Obb2
+		{Center 52.5515 -79.242}
+		{Extent 22.7714 15.0106}
+		{Axis 0.829206 0.558943}
+	}
+	{Rotate}
+}
+{Obstacle "body15"
+	{Obb2
+		{Center 109.818 -1.90735e-006}
+		{Extent 27.5 28.9864}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body16"
+	{Obb2
+		{Center -109.763 -1.90735e-006}
+		{Extent 27.5 28.9864}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 116.477 -2.65488}
+		{Extent 31.25 59.8829}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -116.477 -2.65488}
+		{Extent 31.25 59.8829}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 36.421 -108.21}
+		{Extent 20 28.75}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -36.421 -108.21}
+		{Extent 20 28.75}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 36.421 108.211}
+		{Extent 20 28.75}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center -36.421 108.211}
+		{Extent 20 28.75}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center -77.7261 -53.8303}
+		{Extent 15.1131 22.8388}
+		{Axis 0.829206 0.558943}
+	}
+	{Rotate}
+}
+{Obstacle "body8"
+	{Obb2
+		{Center 77.7261 -53.8303}
+		{Extent 22.8506 15.1312}
+		{Axis 0.559604 0.82876}
+	}
+	{Rotate}
+}
+{Obstacle "body9"
+	{Obb2
+		{Center -77.7261 53.8305}
+		{Extent 22.8506 15.1312}
+		{Axis 0.559604 0.82876}
+	}
+	{Rotate}
+}
+{Volume "body10"
+	{Box 30 45.5287 70}
+	{Bone "body"}
+	{Matrix34
+		-0.831978	0	-0.554809
+		-0.554809	0	0.831978
+		0	1	0
+		77.7261	-0.156006	53.8305
+	}
+}
+{Volume "body11"
+	{Box 30 45.5287 70}
+	{Bone "body"}
+	{Matrix34
+		-0.55933	0	-0.828945
+		-0.828945	0	0.559329
+		0	1	0
+		52.5513	-0.155903	79.2418
+	}
+}
+{Volume "body12"
+	{Box 30 45.5287 70}
+	{Bone "body"}
+	{Matrix34
+		-0.55933	0	-0.828945
+		-0.828945	0	0.559329
+		0	1	0
+		-52.5515	-0.155903	-79.242
+	}
+}
+{Volume "body13"
+	{Box 30 45.5287 70}
+	{Bone "body"}
+	{Matrix34
+		-0.55933	0	0.828945
+		-0.828945	0	-0.55933
+		0	1	0
+		-52.5515	-0.155903	79.242
+	}
+}
+{Volume "body14"
+	{Box 30 45.5287 70}
+	{Bone "body"}
+	{Matrix34
+		-0.55933	0	0.828945
+		-0.828945	0	-0.55933
+		0	1	0
+		52.5515	-0.155903	-79.242
+	}
+}
+{Volume "body15"
+	{Cylinder 28.9864 55}
+	{Bone "body"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		-1	0	0
+		109.818	34.8753	0
+	}
+}
+{Volume "body16"
+	{Cylinder 28.9864 55}
+	{Bone "body"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		1	0	0
+		-109.763	34.8753	0
+	}
+}
+{Volume "body17"
+	{Polyhedron "body17.vol"}
+	{Bone "body"}
+	{Position 0	49.0464	110.538}
+}
+{Volume "body18"
+	{Polyhedron "body18.vol"}
+	{Bone "body"}
+	{Position 0	49.0464	-109.462}
+}
+{Volume "body1"
+	{Box 62.5 119.766 70}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		116.477	-0.156006	-2.65489
+	}
+}
+{Volume "body2"
+	{Box 62.5 119.766 70}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-116.477	-0.156006	-2.65489
+	}
+}
+{Volume "body3"
+	{Box 40 57.5 70}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		36.421	0.529705	-108.21
+	}
+}
+{Volume "body4"
+	{Box 40 57.5 70}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-36.421	0.529705	-108.21
+	}
+}
+{Volume "body5"
+	{Box 40 57.5 70}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		36.421	0.529705	108.211
+	}
+}
+{Volume "body6"
+	{Box 40 57.5 70}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-36.421	0.529705	108.211
+	}
+}
+{Volume "body7"
+	{Box 30 45.5287 70}
+	{Bone "body"}
+	{Matrix34
+		0.831978	0	0.554809
+		0.554809	0	-0.831978
+		0	1	0
+		-77.7261	-0.156109	-53.8303
+	}
+}
+{Volume "body8"
+	{Box 30 45.5287 70}
+	{Bone "body"}
+	{Matrix34
+		-0.831978	0	0.554809
+		-0.554809	0	-0.831978
+		0	1	0
+		77.7261	-0.156109	-53.8303
+	}
+}
+{Volume "body9"
+	{Box 30 45.5287 70}
+	{Bone "body"}
+	{Matrix34
+		0.831978	0	-0.554809
+		0.554809	0	0.831978
+		0	1	0
+		-77.7261	-0.156006	53.8305
+	}
+}
+{Volume "body"
+	{Sphere 95}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0	34.1368	0
+	}
+}

@@ -1,0 +1,21 @@
+;Exported by: Alexey
+;Date:        Tue Oct 14 16:11:13 2008
+;File:        D:\Program Files\Autodesk\3dsMax8\scenes\Crysis\construction\wall_1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Position -0.0110173	0.0496174	-0.0853243}
+			{VolumeView "body1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+	{Position 0.436342	10.3534	6.64041}
+}

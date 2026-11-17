@@ -1,0 +1,10 @@
+{entity 
+	{DecalView 
+		{Sprite "bloody3.mtl" 
+		}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+} 
+

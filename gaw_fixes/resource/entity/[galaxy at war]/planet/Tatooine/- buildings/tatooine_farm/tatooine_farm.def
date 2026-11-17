@@ -1,0 +1,88 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "concrete"}
+	{obstacleid "unbreakable"}
+	("armor_heavy" args 1.0)
+
+	{Extension "tatooine_farm.mdl"}
+
+	{Volume "body10"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body11"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body12"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body13"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body14"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body15"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body16"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body17"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body18"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body6"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body7"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body8"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body9"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 50}
+	}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge"}
+	}
+}

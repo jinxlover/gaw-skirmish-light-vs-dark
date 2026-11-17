@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "tat_bldg_tusken1"}
+	{blend none}
+}

@@ -1,0 +1,41 @@
+;Exported by: Master Mythic
+;Date:        Wed Jan  2 22:15:34 2019
+;File:        M:\Mythics stuff\Modding\Crate_Tutorial\exporting procces -3ds max format\Prop_tutorial.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				-0.258818	-0.000883564	-0.965926
+				-0.96592	-0.00329662	0.25882
+				-0.00341297	0.999994	0
+				0	0	11.4083
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.992033 -3.33719}
+		{Extent 39.6145 4.78117}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		0.258819	0.965926	0
+		0	0	-1
+		-0.965926	0.258819	0
+		11.0096	-2.9899	0.118151
+	}
+}

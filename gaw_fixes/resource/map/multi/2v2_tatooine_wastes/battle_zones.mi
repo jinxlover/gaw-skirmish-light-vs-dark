@@ -1,0 +1,330 @@
+{mission
+(include "/map/better_third_person_view/third_person.mi")
+	{Entity "map_point" 0x8000
+		{Position 3039.04 4317.97}
+		{xform zl -88.38}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 0}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0x8001
+		{Position 3360.71 4327.35}
+		{xform zl -88.38}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 0}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "map_point" 0x8002
+		{Position 2526.48 -8336.71}
+		{xform zl 91.49}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 0}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "map_point" 0x8003
+		{Position 2188.78 -8335.64}
+		{xform zl 91.49}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zone
+				{radius 0}
+				{zoneId ""}
+			}
+			{phase 0}
+			{order 0}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "flag_point" 0x8004
+		{Position -1323.14 -753.36}
+		{Extender "map_point"
+			{name f1}
+			{zone
+				{radius 0}
+				{zoneId "f1"}
+			}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "flag_point" 0x800b
+		{Position -2293.62 -4482.78}
+		{Extender "map_point"
+			{name f2}
+			{zone
+				{radius 0}
+				{zoneId "f2"}
+			}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 10}
+	}
+	{Entity "flag_point" 0xc000
+		{Position -3286.52 3242.49}
+		{Extender "map_point"
+			{name f3}
+			{zone
+				{radius 0}
+				{zoneId "f3"}
+			}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "flag_point" 0xc001
+		{Position 1214.89 625.38}
+		{Extender "map_point"
+			{name f4}
+			{zone
+				{radius 0}
+				{zoneId "f4"}
+			}
+			{phase 0}
+			{order 4}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "flag_point" 0xc002
+		{Position 2534.25 -4412.67}
+		{Extender "map_point"
+			{name f5}
+			{zone
+				{radius 0}
+				{zoneId "f5"}
+			}
+			{phase 0}
+			{order 5}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Environment "multi/multi_05"}
+	{Tags "flag" 0x8004}
+	{Tags "flag" 0x800b}
+	{Tags "flag" 0xc000}
+	{Tags "flag" 0xc001}
+	{Tags "flag" 0xc002}
+	{Helpers
+		{vars
+			(include "../bz_vars.inc")
+		}
+		(include "../bz_events.inc")
+		{zone "poly"
+			{position -1323.14 -753.36 0}
+			{Name "f1"}
+			{Point 415.75 172.21}
+			{Point 172.21 415.75}
+			{Point -172.21 415.75}
+			{Point -415.75 172.21}
+			{Point -415.75 -172.21}
+			{Point -172.21 -415.75}
+			{Point 172.21 -415.75}
+			{Point 415.75 -172.21}
+		}
+		{zone "poly"
+			{position -2293.62 -4482.78 0}
+			{Name "f2"}
+			{Point 415.75 172.21}
+			{Point 172.21 415.75}
+			{Point -172.21 415.75}
+			{Point -415.75 172.21}
+			{Point -415.75 -172.21}
+			{Point -172.21 -415.75}
+			{Point 172.21 -415.75}
+			{Point 415.75 -172.21}
+		}
+		{zone "poly"
+			{position -3286.52 3242.49 0}
+			{Name "f3"}
+			{Point 415.75 172.21}
+			{Point 172.21 415.75}
+			{Point -172.21 415.75}
+			{Point -415.75 172.21}
+			{Point -415.75 -172.21}
+			{Point -172.21 -415.75}
+			{Point 172.21 -415.75}
+			{Point 415.75 -172.21}
+		}
+		{zone "poly"
+			{position 1214.89 625.38 0}
+			{Name "f4"}
+			{Point 415.75 172.21}
+			{Point 172.21 415.75}
+			{Point -172.21 415.75}
+			{Point -415.75 172.21}
+			{Point -415.75 -172.21}
+			{Point -172.21 -415.75}
+			{Point 172.21 -415.75}
+			{Point 415.75 -172.21}
+		}
+		{zone "poly"
+			{position 2534.25 -4412.67 0}
+			{Name "f5"}
+			{Point 415.75 172.21}
+			{Point 172.21 415.75}
+			{Point -172.21 415.75}
+			{Point -415.75 172.21}
+			{Point -415.75 -172.21}
+			{Point -172.21 -415.75}
+			{Point 172.21 -415.75}
+			{Point 415.75 -172.21}
+		}
+		{zone "poly"
+			{position 6.02500000000009 -2025.075 0}
+			{Name "global"}
+			{Point -4954.105 -6972.695}
+			{Point -4954.105 6972.695}
+			{Point 4954.105 6972.695}
+			{Point 4954.105 -6972.695}
+		}
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+			(include "../bz_triggers.inc")
+			{"environment"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name multi_05}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+						}
+					}
+				}
+			}
+			{"music"
+				{condition
+				}
+				{actions
+					{"music"
+						{start "/music/tusken_camp.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 4}
+	}
+	{Fog 1}
+}

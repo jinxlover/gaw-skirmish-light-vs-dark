@@ -1,0 +1,15 @@
+{game_entity
+	
+        (include "/properties/building.inc")
+	{Extension "wall_5.mdl"}
+        {obstacleid "unbreakable"}
+	{props "concrete"}
+	("armor_heavy" args 1.0)	
+       
+	
+	{Volume "body"
+		
+                {Thickness 10}
+		{able {obstacle 1}}
+	}
+}

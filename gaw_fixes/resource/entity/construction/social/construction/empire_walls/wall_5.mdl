@@ -1,0 +1,20 @@
+;Exported by: Julien
+;Date:        Mon Nov 16 16:16:07 2015
+;File:        C:\Users\Julien\Documents\Crate_Tutorial\exporting procces -3ds max format\models\wall_5.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Position 0	0	-3.24249e-005}
+			{VolumeView "body5.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body5.vol"}
+	{Bone "body"}
+}

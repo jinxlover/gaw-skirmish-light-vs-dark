@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/decor/objects"}
+	{bump "$/decor/objects_n"}
+	{blend none}
+}

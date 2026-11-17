@@ -1,0 +1,8 @@
+{material simple
+	{diffuse "bloodsplash"
+		{Axis 32 32}
+		{AlphaChannel 1}
+	}
+	{Blend blend}
+}
+

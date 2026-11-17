@@ -1,0 +1,2536 @@
+;{mission
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+			{"third_person/infantry_zoom_on"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_zoom_base}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_zoom_base}
+						}
+						{tag_add infantry_zoom_base_on}
+						{tag_remove infantry_zoom_base}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_zoom_base_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -200.5}
+								{y -0.5}
+								{z 8}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/zoom"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_zoom_base_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"trigger"
+						{name "third_person/infantry_zoom_on"}
+					}
+				}
+			}
+			{"third_person/infantry_sniper"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_sniper}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_sniper}
+						}
+						{tag_add infantry_sniper_on}
+						{tag_remove infantry_sniper}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_sniper_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -200.5}
+								{y -0.5}
+								{z 8}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/sniper"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_sniper_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"delay"
+						{time 30}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_sniper_on}
+						}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_sniper_on}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_sniper_on}
+						}
+						{tag_remove infantry_sniper_on}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "third_person/infantry_sniper"}
+					}
+				}
+			}
+			{"third_person/infantry_bazooka"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_bazooka}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_bazooka}
+						}
+						{tag_add infantry_bazooka_on}
+						{tag_remove infantry_bazooka}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_bazooka_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -200.5}
+								{y -0.5}
+								{z 8}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/bazooka"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_bazooka_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"delay"
+						{time 30}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_bazooka_on}
+						}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_bazooka_on}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_bazooka_on}
+						}
+						{tag_remove infantry_bazooka_on}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "third_person/infantry_bazooka"}
+					}
+				}
+			}
+			{"third_person/vehicle_on"
+				{condition
+					{terms
+						{"2.entities"
+							{selector
+								{tag active_unit}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"default"
+							{"delay"
+								{time 0.1}
+							}
+							{"third_person_control"
+								{selector
+									{ignore_captured_by_user 0}
+									{tag active_unit}
+								}
+								{lock on}
+								{position
+									{linkBone basis}
+									{offest
+										{x -180}
+										{y 0}
+										{z 70}
+									}
+								}
+								{positionZoom
+									{linkBone basis}
+									{offest
+										{x 0}
+										{y 0}
+										{z 0}
+									}
+								}
+								{clip
+									{viewMin -89}
+									{viewMax 89}
+								}
+								{zoom
+									{min -150}
+									{max 800}
+									{fov "100"}
+									{vignette "/texture/vehicle"}
+								}
+							}
+						}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "third_person/vehicle_on"}
+					}
+				}
+			}
+			{"third_person/vehicle_off"
+				{condition
+					{terms
+						{"2.entities"
+							{selector
+								{tag active_unit_under3d}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"switch"
+						{"default"
+							{"delay"
+								{time 0.1}
+							}
+							{"third_person_control"
+								{selector
+									{ignore_captured_by_user 0}
+									{tag active_unit_under3d}
+								}
+								{lock off}
+								{position
+									{offest
+										{x 0}
+										{y 0}
+										{z 0}
+									}
+								}
+								{positionZoom
+									{offest
+										{x 0}
+										{y 0}
+										{z 0}
+									}
+								}
+								{clip
+									{viewMin 0}
+									{viewMax 0}
+								}
+								{zoom
+									{min -100}
+									{max 650}
+									{fov "90"}
+								}
+							}
+						}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "third_person/vehicle_off"}
+					}
+				}
+			}
+			{"third_person/infantry_zoom_off"
+				{condition
+					{expression "1&(2|3|4|5|6)"}
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_zoom_base_on}
+										}
+									}
+								}
+							}
+						}
+						{"2.inventory"
+							{selector
+								{tag infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "crow_bar"}
+						}
+						{"3.inventory"
+							{selector
+								{tag infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "missile"}
+						}
+						{"4.inventory"
+							{selector
+								{tag infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "itemin2hands"}
+						}
+						{"5.inventory"
+							{selector
+								{tag infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "smallitemin1hand"}
+						}
+						{"6.inventory"
+							{selector
+								{tag infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "throwable"}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_zoom_base_on}
+						}
+						{tag_add infantry_zoom_base_off}
+						{tag_remove infantry_zoom_base_on}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_zoom_base_off}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_zoom_base_off}
+						}
+						{weapon_prepare off}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"delay"
+						{time 1.5}
+					}
+					{"inventory"
+						{selector
+							{tag infantry_zoom_base_off}
+						}
+						{action remove}
+						{item "thirdperson" "grenade"}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_zoom_base_off}
+						}
+						{tag_remove infantry_zoom_base_off}
+					}
+					{"trigger"
+						{name "third_person/infantry_zoom_off"}
+					}
+				}
+			}
+			{"third_person/infantry_zoom_base"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_zoom_hzc}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"inventory"
+						{selector
+							{tag infantry_zoom_hzc}
+						}
+						{action add}
+						{item "thirdperson" "grenade"}
+					}
+					{"if"
+						{condition
+							{type inventory}
+							{selector
+								{tag infantry_zoom_hzc}
+							}
+							{item "thirdperson"}
+						}
+						{"entity_state"
+							{selector
+								{tag infantry_zoom_hzc}
+							}
+							{tag_add infantry_zoom_base}
+							{tag_remove infantry_zoom_hzc}
+						}
+					}
+					{## "delay"
+						{time 1}
+					}
+					{"entity_state"
+						{selector
+							{tag infantry_zoom_hzc}
+						}
+						{tag_remove infantry_zoom_hzc}
+					}
+					{"trigger"
+						{name "third_person/infantry_zoom_base"}
+					}
+				}
+			}
+			{"third_person/infantry_zoom"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_zoom}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_zoom}
+						}
+						{tag_add infantry_zoom_on}
+						{tag_remove infantry_zoom}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_zoom_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -200.5}
+								{y -0.5}
+								{z 8}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/zoom"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_zoom_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"delay"
+						{time 30}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_zoom_on}
+						}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_zoom_on}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_zoom_on}
+						}
+						{tag_remove infantry_zoom_on}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "third_person/infantry_zoom"}
+					}
+				}
+			}
+			{"third_person/infantry_sniper_base"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_sniper_hzc}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"inventory"
+						{selector
+							{tag infantry_sniper_hzc}
+						}
+						{action add}
+						{item "thirdperson" "grenade"}
+					}
+					{"if"
+						{condition
+							{type inventory}
+							{selector
+								{tag infantry_sniper_hzc}
+							}
+							{item "thirdperson"}
+						}
+						{"entity_state"
+							{selector
+								{tag infantry_sniper_hzc}
+							}
+							{tag_add infantry_sniper_base}
+							{tag_remove infantry_sniper_hzc}
+						}
+					}
+					{## "delay"
+						{time 1}
+					}
+					{"entity_state"
+						{selector
+							{tag infantry_sniper_hzc}
+						}
+						{tag_remove infantry_sniper_hzc}
+					}
+					{"trigger"
+						{name "third_person/infantry_sniper_base"}
+					}
+				}
+			}
+			{"third_person/infantry_sniper_on"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_sniper_base}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_sniper_base}
+						}
+						{tag_add infantry_sniper_base_on}
+						{tag_remove infantry_sniper_base}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_sniper_base_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -200.5}
+								{y -0.5}
+								{z 8}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/sniper"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_sniper_base_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"trigger"
+						{name "third_person/infantry_sniper_on"}
+					}
+				}
+			}
+			{"third_person/infantry_sniper_off"
+				{condition
+					{expression "1&(2|3|4|5|6)"}
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_sniper_base_on}
+										}
+									}
+								}
+							}
+						}
+						{"2.inventory"
+							{selector
+								{tag infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "crow_bar"}
+						}
+						{"3.inventory"
+							{selector
+								{tag infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "missile"}
+						}
+						{"4.inventory"
+							{selector
+								{tag infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "itemin2hands"}
+						}
+						{"5.inventory"
+							{selector
+								{tag infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "smallitemin1hand"}
+						}
+						{"6.inventory"
+							{selector
+								{tag infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "throwable"}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_sniper_base_on}
+						}
+						{tag_add infantry_sniper_base_off}
+						{tag_remove infantry_sniper_base_on}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_sniper_base_off}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_sniper_base_off}
+						}
+						{weapon_prepare off}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"delay"
+						{time 1.5}
+					}
+					{"inventory"
+						{selector
+							{tag infantry_sniper_base_off}
+						}
+						{action remove}
+						{item "thirdperson" "grenade"}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_sniper_base_off}
+						}
+						{tag_remove infantry_sniper_base_off}
+					}
+					{"trigger"
+						{name "third_person/infantry_sniper_off"}
+					}
+				}
+			}
+			{"third_person/infantry_bazooka_base"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_bazooka_hzc}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"inventory"
+						{selector
+							{tag infantry_bazooka_hzc}
+						}
+						{action add}
+						{item "thirdperson" "grenade"}
+					}
+					{"if"
+						{condition
+							{type inventory}
+							{selector
+								{tag infantry_bazooka_hzc}
+							}
+							{item "thirdperson"}
+						}
+						{"entity_state"
+							{selector
+								{tag infantry_bazooka_hzc}
+							}
+							{tag_add infantry_bazooka_base}
+							{tag_remove infantry_bazooka_hzc}
+						}
+					}
+					{## "delay"
+						{time 1}
+					}
+					{"entity_state"
+						{selector
+							{tag infantry_bazooka_hzc}
+						}
+						{tag_remove infantry_bazooka_hzc}
+					}
+					{"trigger"
+						{name "third_person/infantry_bazooka_base"}
+					}
+				}
+			}
+			{"third_person/infantry_bazooka_on"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_bazooka_base}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_bazooka_base}
+						}
+						{tag_add infantry_bazooka_base_on}
+						{tag_remove infantry_bazooka_base}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_bazooka_base_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -200.5}
+								{y -0.5}
+								{z 8}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/bazooka"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_bazooka_base_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"trigger"
+						{name "third_person/infantry_bazooka_on"}
+					}
+				}
+			}
+			{"third_person/infantry_bazooka_off"
+				{condition
+					{expression "1&(2|3|4|5|6)"}
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag infantry_bazooka_base_on}
+										}
+									}
+								}
+							}
+						}
+						{"2.inventory"
+							{selector
+								{tag infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "crow_bar"}
+						}
+						{"3.inventory"
+							{selector
+								{tag infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "missile"}
+						}
+						{"4.inventory"
+							{selector
+								{tag infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "itemin2hands"}
+						}
+						{"5.inventory"
+							{selector
+								{tag infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "smallitemin1hand"}
+						}
+						{"6.inventory"
+							{selector
+								{tag infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "throwable"}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_bazooka_base_on}
+						}
+						{tag_add infantry_bazooka_base_off}
+						{tag_remove infantry_bazooka_base_on}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_bazooka_base_off}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag infantry_bazooka_base_off}
+						}
+						{weapon_prepare off}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"delay"
+						{time 1.5}
+					}
+					{"inventory"
+						{selector
+							{tag infantry_bazooka_base_off}
+						}
+						{action remove}
+						{item "thirdperson" "grenade"}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag infantry_bazooka_base_off}
+						}
+						{tag_remove infantry_bazooka_base_off}
+					}
+					{"trigger"
+						{name "third_person/infantry_bazooka_off"}
+					}
+				}
+			}
+			{"first_person/infantry_zoom"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fpau_infantry_zoom}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_zoom}
+						}
+						{tag_add fpau_infantry_zoom_on}
+						{tag_remove fpau_infantry_zoom}
+					}
+					{"set_clip"
+						{name firstperson}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_zoom_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -1.1}
+								{y 1.4}
+								{z 0.3}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/zoom"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag fpau_infantry_zoom_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"delay"
+						{time 30}
+					}
+					{"actor_state"
+						{selector
+							{tag fpau_infantry_zoom_on}
+						}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_zoom_on}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_zoom_on}
+						}
+						{tag_remove fpau_infantry_zoom_on}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "first_person/infantry_zoom"}
+					}
+				}
+			}
+			{"first_person/infantry_sniper"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fpau_infantry_sniper}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_sniper}
+						}
+						{tag_add fpau_infantry_sniper_on}
+						{tag_remove fpau_infantry_sniper}
+					}
+					{"set_clip"
+						{name firstperson}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_sniper_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -1.1}
+								{y 1.4}
+								{z 0.3}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/sniper"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag fpau_infantry_sniper_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"delay"
+						{time 30}
+					}
+					{"actor_state"
+						{selector
+							{tag fpau_infantry_sniper_on}
+						}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_sniper_on}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_sniper_on}
+						}
+						{tag_remove fpau_infantry_sniper_on}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "first_person/infantry_sniper"}
+					}
+				}
+			}
+			{"first_person/infantry_bazooka"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fpau_infantry_bazooka}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_bazooka}
+						}
+						{tag_add fpau_infantry_bazooka_on}
+						{tag_remove fpau_infantry_bazooka}
+					}
+					{"set_clip"
+						{name firstperson}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_bazooka_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -1.1}
+								{y 1.4}
+								{z 0.3}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/bazooka"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag fpau_infantry_bazooka_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"delay"
+						{time 30}
+					}
+					{"actor_state"
+						{selector
+							{tag fpau_infantry_bazooka_on}
+						}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_bazooka_on}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fpau_infantry_bazooka_on}
+						}
+						{tag_remove fpau_infantry_bazooka_on}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "first_person/infantry_bazooka"}
+					}
+				}
+			}
+			{"first_person/infantry_zoom_base"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fp_infantry_zoom_hzc}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"inventory"
+						{selector
+							{tag fp_infantry_zoom_hzc}
+						}
+						{action add}
+						{item "thirdperson" "grenade"}
+					}
+					{"if"
+						{condition
+							{type inventory}
+							{selector
+								{tag fp_infantry_zoom_hzc}
+							}
+							{item "thirdperson"}
+						}
+						{"entity_state"
+							{selector
+								{tag fp_infantry_zoom_hzc}
+							}
+							{tag_add fp_infantry_zoom_base}
+							{tag_remove fp_infantry_zoom_hzc}
+						}
+					}
+					{## "delay"
+						{time 1}
+					}
+					{"entity_state"
+						{selector
+							{tag fp_infantry_zoom_hzc}
+						}
+						{tag_remove fp_infantry_zoom_hzc}
+					}
+					{"trigger"
+						{name "first_person/infantry_zoom_base"}
+					}
+				}
+			}
+			{"first_person/infantry_zoom_on"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fp_infantry_zoom_base}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_zoom_base}
+						}
+						{tag_add fp_infantry_zoom_base_on}
+						{tag_remove fp_infantry_zoom_base}
+					}
+					{"set_clip"
+						{name firstperson}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_zoom_base_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -1.1}
+								{y 1.4}
+								{z 0.3}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/zoom"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag fp_infantry_zoom_base_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"trigger"
+						{name "first_person/infantry_zoom_on"}
+					}
+				}
+			}
+			{"first_person/infantry_zoom_off"
+				{condition
+					{expression "1&(2|3|4|5|6)"}
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fp_infantry_zoom_base_on}
+										}
+									}
+								}
+							}
+						}
+						{"2.inventory"
+							{selector
+								{tag fp_infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "crow_bar"}
+						}
+						{"3.inventory"
+							{selector
+								{tag fp_infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "missile"}
+						}
+						{"4.inventory"
+							{selector
+								{tag fp_infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "itemin2hands"}
+						}
+						{"5.inventory"
+							{selector
+								{tag fp_infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "smallitemin1hand"}
+						}
+						{"6.inventory"
+							{selector
+								{tag fp_infantry_zoom_base_on}
+							}
+							{where "right hand"}
+							{item "throwable"}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_zoom_base_on}
+						}
+						{tag_add fp_infantry_zoom_base_off}
+						{tag_remove fp_infantry_zoom_base_on}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_zoom_base_off}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag fp_infantry_zoom_base_off}
+						}
+						{weapon_prepare off}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"delay"
+						{time 1.5}
+					}
+					{"inventory"
+						{selector
+							{tag fp_infantry_zoom_base_off}
+						}
+						{action remove}
+						{item "thirdperson" "grenade"}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_zoom_base_off}
+						}
+						{tag_remove fp_infantry_zoom_base_off}
+					}
+					{"trigger"
+						{name "first_person/infantry_zoom_off"}
+					}
+				}
+			}
+			{"first_person/infantry_sniper_base"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fp_infantry_sniper_hzc}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"inventory"
+						{selector
+							{tag fp_infantry_sniper_hzc}
+						}
+						{action add}
+						{item "thirdperson" "grenade"}
+					}
+					{"if"
+						{condition
+							{type inventory}
+							{selector
+								{tag fp_infantry_sniper_hzc}
+							}
+							{item "thirdperson"}
+						}
+						{"entity_state"
+							{selector
+								{tag fp_infantry_sniper_hzc}
+							}
+							{tag_add fp_infantry_sniper_base}
+							{tag_remove fp_infantry_sniper_hzc}
+						}
+					}
+					{## "delay"
+						{time 1}
+					}
+					{"entity_state"
+						{selector
+							{tag fp_infantry_sniper_hzc}
+						}
+						{tag_remove fp_infantry_sniper_hzc}
+					}
+					{"trigger"
+						{name "first_person/infantry_sniper_base"}
+					}
+				}
+			}
+			{"first_person/infantry_sniper_on"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fp_infantry_sniper_base}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_sniper_base}
+						}
+						{tag_add fp_infantry_sniper_base_on}
+						{tag_remove fp_infantry_sniper_base}
+					}
+					{"set_clip"
+						{name firstperson}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_sniper_base_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -1.1}
+								{y 1.4}
+								{z 0.3}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/sniper"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag fp_infantry_sniper_base_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"trigger"
+						{name "first_person/infantry_sniper_on"}
+					}
+				}
+			}
+			{"first_person/infantry_sniper_off"
+				{condition
+					{expression "1&(2|3|4|5|6)"}
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fp_infantry_sniper_base_on}
+										}
+									}
+								}
+							}
+						}
+						{"2.inventory"
+							{selector
+								{tag fp_infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "crow_bar"}
+						}
+						{"3.inventory"
+							{selector
+								{tag fp_infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "missile"}
+						}
+						{"4.inventory"
+							{selector
+								{tag fp_infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "itemin2hands"}
+						}
+						{"5.inventory"
+							{selector
+								{tag fp_infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "smallitemin1hand"}
+						}
+						{"6.inventory"
+							{selector
+								{tag fp_infantry_sniper_base_on}
+							}
+							{where "right hand"}
+							{item "throwable"}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_sniper_base_on}
+						}
+						{tag_add fp_infantry_sniper_base_off}
+						{tag_remove fp_infantry_sniper_base_on}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_sniper_base_off}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag fp_infantry_sniper_base_off}
+						}
+						{weapon_prepare off}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"delay"
+						{time 1.5}
+					}
+					{"inventory"
+						{selector
+							{tag fp_infantry_sniper_base_off}
+						}
+						{action remove}
+						{item "thirdperson" "grenade"}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_sniper_base_off}
+						}
+						{tag_remove fp_infantry_sniper_base_off}
+					}
+					{"trigger"
+						{name "first_person/infantry_sniper_off"}
+					}
+				}
+			}
+			{"first_person/infantry_bazooka_base"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fp_infantry_bazooka_hzc}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"inventory"
+						{selector
+							{tag fp_infantry_bazooka_hzc}
+						}
+						{action add}
+						{item "thirdperson" "grenade"}
+					}
+					{"if"
+						{condition
+							{type inventory}
+							{selector
+								{tag fp_infantry_bazooka_hzc}
+							}
+							{item "thirdperson"}
+						}
+						{"entity_state"
+							{selector
+								{tag fp_infantry_bazooka_hzc}
+							}
+							{tag_add fp_infantry_bazooka_base}
+							{tag_remove fp_infantry_bazooka_hzc}
+						}
+					}
+					{## "delay"
+						{time 1}
+					}
+					{"entity_state"
+						{selector
+							{tag fp_infantry_bazooka_hzc}
+						}
+						{tag_remove fp_infantry_bazooka_hzc}
+					}
+					{"trigger"
+						{name "first_person/infantry_bazooka_base"}
+					}
+				}
+			}
+			{"first_person/infantry_bazooka_on"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fp_infantry_bazooka_base}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_bazooka_base}
+						}
+						{tag_add fp_infantry_bazooka_base_on}
+						{tag_remove fp_infantry_bazooka_base}
+					}
+					{"set_clip"
+						{name firstperson}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_bazooka_base_on}
+						}
+						{lock on}
+						{position
+							{linkBone visor}
+							{offest
+								{x -1.1}
+								{y 1.4}
+								{z 0.3}
+							}
+						}
+						{positionZoom
+							{linkBone visor}
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin -60}
+							{viewMax 89}
+						}
+						{zoom
+							{min -600}
+							{max 500}
+							{fov "60"}
+							{vignette "/texture/bazooka"}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag fp_infantry_bazooka_base_on}
+						}
+						{movement
+							{speed fast}
+							{kind fast}
+							{speed_kph 30}
+							{max_speed_kph 70}
+						}
+						{human
+							{stamina 999999}
+						}
+					}
+					{"trigger"
+						{name "first_person/infantry_bazooka_on"}
+					}
+				}
+			}
+			{"first_person/infantry_bazooka_off"
+				{condition
+					{expression "1&(2|3|4|5|6)"}
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag fp_infantry_bazooka_base_on}
+										}
+									}
+								}
+							}
+						}
+						{"2.inventory"
+							{selector
+								{tag fp_infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "crow_bar"}
+						}
+						{"3.inventory"
+							{selector
+								{tag fp_infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "missile"}
+						}
+						{"4.inventory"
+							{selector
+								{tag fp_infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "itemin2hands"}
+						}
+						{"5.inventory"
+							{selector
+								{tag fp_infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "smallitemin1hand"}
+						}
+						{"6.inventory"
+							{selector
+								{tag fp_infantry_bazooka_base_on}
+							}
+							{where "right hand"}
+							{item "throwable"}
+						}
+					}
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_bazooka_base_on}
+						}
+						{tag_add fp_infantry_bazooka_base_off}
+						{tag_remove fp_infantry_bazooka_base_on}
+					}
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"third_person_control"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_bazooka_base_off}
+						}
+						{lock off}
+						{position
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{positionZoom
+							{offest
+								{x 0}
+								{y 0}
+								{z 0}
+							}
+						}
+						{clip
+							{viewMin 0}
+							{viewMax 0}
+						}
+						{zoom
+							{min 0}
+							{max 0}
+						}
+					}
+					{"actor_state"
+						{selector
+							{tag fp_infantry_bazooka_base_off}
+						}
+						{weapon_prepare off}
+						{human
+							{stamina 1000}
+						}
+					}
+					{"delay"
+						{time 1.5}
+					}
+					{"inventory"
+						{selector
+							{tag fp_infantry_bazooka_base_off}
+						}
+						{action remove}
+						{item "thirdperson" "grenade"}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag fp_infantry_bazooka_base_off}
+						}
+						{tag_remove fp_infantry_bazooka_base_off}
+					}
+					{"trigger"
+						{name "first_person/infantry_bazooka_off"}
+					}
+				}
+			}
+			{"camera_auto"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag camera_auto}
+							}
+						}
+					}
+				}
+				{actions
+					{"set_clip"
+						{name "[auto]"}
+					}
+					{"trigger"
+						{name "camera_auto"}
+					}
+				}
+			}
+		}
+	}
+	{Fog 1}
+;}
+

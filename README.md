@@ -2,7 +2,7 @@
 
 An unofficial add-on for **Star Wars: Galaxy At War**, a mod for *Call to Arms – Gates of Hell: Ostfront*. It makes the mod playable in **skirmish vs AI** and **multiplayer (PvP)**.
 
-Built and tested on game version **1.068**.
+Built and tested on game version **1.069**.
 
 ## What you get
 
@@ -19,7 +19,21 @@ Built and tested on game version **1.068**.
 - A working AI for both sides, which buys infantry, AT and tanks.
 - Engineers that build defenses and lay mines, like the base-game factions.
 - Extra **Custom** game settings with much more CP and manpower: CP 300, 400 and 600, with up to 20,000 MP.
-- Fixes for crashes in Galaxy at War on game 1.068.
+- Fixes for crashes in Galaxy at War on game 1.068 and later.
+
+**Star Wars map**
+- **(4) Tatooine Wastes**: a 2v2 desert map ported from the Galaxy at War expanded add-on for Men of War: Assault Squad 2. Tested in game in both **Battle Zones** and **Domination**. In the lobby's map list it's near the bottom.
+
+## Screenshots
+
+Tatooine Wastes in Battle Zones:
+
+![Tatooine Wastes, Battle Zones](screenshots/tatooine_battle_zones.jpg)
+
+Tatooine Wastes in Domination, showing the Light Side field HQ and the center objective:
+
+![Tatooine Wastes, Domination field HQ](screenshots/tatooine_domination_hq.jpg)
+![Tatooine Wastes, Domination objective](screenshots/tatooine_domination_objective.jpg)
 
 ## Install
 
@@ -55,7 +69,12 @@ Turn other mods off.
 - Aircraft (the LAAT gunships and droid bomber) are lightly tested. Game 1.068 removed the collision profile they use, so they may behave oddly.
 - The lobby's doctrine preview window may be empty. The doctrine units themselves work in-game.
 - Unit cards are simple faction-colored placeholders. Galaxy at War has no card art for most units.
-- Only the Battle Zones mode has been played much. Frontlines and Last Stand should work but are untested.
+- Battle Zones and Domination have been played. Frontlines and Last Stand should work but are untested.
+- On Tatooine Wastes, the parked vehicles and a few props from the original map were left out, because Gates of Hell can't load them.
+
+## Updating
+
+To update from an older version, delete your old `mods\gaw_fixes` folder, then extract the new zip in its place. Both players need the same version.
 
 ## Credits
 
