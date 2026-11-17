@@ -47,11 +47,15 @@ You and everyone you play with need **the same two mods**:
 
 1. **Galaxy At War** (base mod): subscribe on the Steam Workshop at
    <https://steamcommunity.com/sharedfiles/filedetails/?id=2846452104>
-2. **This add-on**: download **`gaw_skirmish_light_vs_dark.zip`** from the [Releases](../../releases) page. Extract it so the **`gaw_fixes`** folder ends up here:
-   ```
-   ...\steamapps\common\Call to Arms - Gates of Hell\mods\gaw_fixes\mod.info
-   ```
-   Keep the folder name `gaw_fixes` exactly. Both players' games must see the same mod name.
+2. **This add-on**, either way (they are the same mod, file for file):
+   - **Steam Workshop (easiest):** subscribe at <https://steamcommunity.com/sharedfiles/filedetails/?id=3841560743>
+   - **Or GitHub:** download **`gaw_skirmish_light_vs_dark.zip`** from the [Releases](../../releases) page and extract it so the **`mod_3841560743`** folder ends up here:
+     ```
+     ...\steamapps\common\Call to Arms - Gates of Hell\mods\mod_3841560743\mod.info
+     ```
+     Keep the folder name `mod_3841560743` exactly. It's the name the Workshop copy loads under, so a GitHub player and a Workshop player see the same mod.
+
+   Use only **one** copy. If you subscribed on the Workshop, don't also keep a GitHub copy, or an older `mods\gaw_fixes` folder, from v1.2 or earlier.
 
 **Do not enable the "Galaxy At War – Conquest" add-on** with this. It replaces the base-game factions, and on 1.068 it crashes skirmish matches.
 
@@ -59,7 +63,7 @@ You and everyone you play with need **the same two mods**:
 
 In the GoH Mod Manager, or the game's Extras → Workshop menu, enable the two mods **in this order**:
 1. Galaxy_At_War
-2. GAW Skirmish: Light vs Dark
+2. GAW Skirmish - Light vs Dark
 
 Turn other mods off.
 
@@ -81,7 +85,7 @@ Turn other mods off.
 
 ## Updating
 
-To update from an older version, delete your old `mods\gaw_fixes` folder, then extract the new zip in its place. Both players need the same version.
+Workshop subscribers update automatically. GitHub users: delete your old `mods\mod_3841560743` folder, then extract the new zip in its place. Coming from v1.2 or earlier, also delete the old `mods\gaw_fixes` folder. Both players need the same version.
 
 ## Credits
 

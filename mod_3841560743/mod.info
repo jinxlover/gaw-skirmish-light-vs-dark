@@ -1,0 +1,7 @@
+{mod
+	{name "GAW Skirmish - Light vs Dark"}
+	{tags "sw gaw fix skirmish"}
+	{desc "Light Side (Republic, Rebels, Naboo, Wookiees) vs Dark Side (Separatists, Empire, Zann, Geonosians, Tuskens) skirmish and PvP rosters, AI, doctrines and high-CP custom presets for Star Wars - Galaxy At War (base mod), plus fixes for game 1.068. Load AFTER Galaxy At War. Both players need it for multiplayer."}
+	{minGameVersion "any"}
+	{maxGameVersion "any"}
+}
