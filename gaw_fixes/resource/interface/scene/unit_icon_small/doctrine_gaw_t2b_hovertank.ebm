@@ -1,6 +1,0 @@
-{bitmap
-	{frame "t2b_hovertank_00.tga"}
-	{frame "t2b_hovertank_01.tga"}
-	{frame "t2b_hovertank_02.tga"}
-	{frame "t2b_hovertank_03.tga"}
-}

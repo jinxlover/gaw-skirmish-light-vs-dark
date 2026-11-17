@@ -3,7 +3,7 @@
 	{charge {delay 0} {interval 20}}
 	{content "mp/cis/mid/sergeant:1 mp/cis/mid/rifleman_1:7 mp/cis/mid/mg:1 mp/cis/mid/smg_1:2"}
 	{tags "all infantry cis mid"}
-	{group "squad_8"}
+	{group "squad_18"}
 	{button "inf1"}
 	{level 1}
 	{doctrine mid_cis_allround}
@@ -14,7 +14,7 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/sergeant:1 mp/cis/mid/antitank:3"}
 	{tags "all infantry cis mid"}
-	{group "squad_9"}
+	{group "squad_19"}
 	{button "inf1"}
 	{level 1}
 	{doctrine mid_cis_allround}
@@ -25,7 +25,7 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/corporal:1 mp/cis/mid/flamer:3"}
 	{tags "all infantry cis mid"}
-	{group "squad_10"}
+	{group "squad_20"}
 	{button "inf1"}
 	{level 1}
 	{doctrine mid_cis_allround}
@@ -36,7 +36,7 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/corporal:1 mp/cis/mid/engineer_1:3 mp/cis/mid/engineer_miner:1"}
 	{tags "all infantry cis mid"}
-	{group "squad_11"}
+	{group "squad_21"}
 	{button "inf1"}
 	{level 1}
 	{doctrine mid_cis_allround}
@@ -47,7 +47,7 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/imp_engineer_1:2 mp/cis/mid/imp_engineer_2:2 mp/cis/mid/imp_gunner:2"}
 	{tags "all infantry cis mid"}
-	{group "squad_12"}
+	{group "squad_22"}
 	{button "inf1"}
 	{level 1}
 	{doctrine mid_cis_allround}
@@ -58,7 +58,7 @@
 	{charge {delay 0} {interval 40}}
 	{content "mp/cis/mid/geo_rifle:4 mp/cis/mid/geo_pistol:4"}
 	{tags "all infantry cis mid"}
-	{group "squad_13"}
+	{group "squad_23"}
 	{button "inf1"}
 	{level 1}
 	{doctrine mid_cis_allround}
@@ -69,7 +69,7 @@
 	{charge {delay 0} {interval 40}}
 	{content "mp/cis/mid/tusken_rifle:3 mp/cis/mid/tusken_smg:3 mp/cis/mid/tusken_mgun:1"}
 	{tags "all infantry cis mid"}
-	{group "squad_14"}
+	{group "squad_24"}
 	{button "inf1"}
 	{level 1}
 	{doctrine mid_cis_allround}
@@ -80,8 +80,129 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/killik_1:4 mp/cis/mid/killik_2:3"}
 	{tags "all infantry cis mid"}
-	{group "squad_15"}
+	{group "squad_25"}
 	{button "inf1"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_b1_rifle(cis)"
+	{charge {delay 0} {interval 3}}
+	{content "mp/cis/mid/rifleman_1:1"}
+	{tags "all infantry cis mid"}
+	{group "squad_26"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_b1_mg(cis)"
+	{charge {delay 0} {interval 60}}
+	{content "mp/cis/mid/mg:2"}
+	{tags "all infantry cis mid"}
+	{group "squad_27"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_tusken_mg(cis)"
+	{charge {delay 0} {interval 60}}
+	{content "mp/cis/mid/tusken_mgun:2"}
+	{tags "all infantry cis mid"}
+	{group "squad_28"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_b1_at(cis)"
+	{charge {delay 0} {interval 30}}
+	{content "mp/cis/mid/antitank:2"}
+	{tags "all infantry cis mid"}
+	{group "squad_29"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_b1_flamer(cis)"
+	{charge {delay 0} {interval 60}}
+	{content "mp/cis/mid/flamer:1"}
+	{tags "all infantry cis mid"}
+	{group "squad_30"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_b1_engineer(cis)"
+	{charge {delay 0} {interval 60}}
+	{content "mp/cis/mid/engineer_1:2"}
+	{tags "all infantry cis mid"}
+	{group "squad_31"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_b1_miner(cis)"
+	{charge {delay 0} {interval 60}}
+	{content "mp/cis/mid/engineer_miner:2"}
+	{tags "all infantry cis mid"}
+	{group "squad_32"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_b1_miner_ap(cis)"
+	{charge {delay 0} {interval 60}}
+	{content "mp/cis/mid/engineer_miner_ap:2"}
+	{tags "all infantry cis mid"}
+	{group "squad_33"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_b1_medic(cis)"
+	{charge {delay 0} {interval 0}}
+	{content "mp/cis/mid/medic:1"}
+	{tags "all infantry cis mid"}
+	{group "squad_34"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_droid_crew(cis)"
+	{charge {delay 150} {interval 150}}
+	{content "mp/cis/mid/tank_commander:1 mp/cis/mid/tankman:4"}
+	{tags "all infantry cis mid"}
+	{group "squad_35"}
+	{button "inf2"}
+	{level 1}
+	{doctrine mid_cis_allround}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+}
+{"gaw_single_oom_officer(cis)"
+	{charge {delay 120} {interval 180}}
+	{content "mp/cis/mid/officer:1"}
+	{tags "all infantry cis mid"}
+	{group "squad_36"}
+	{button "inf2"}
 	{level 1}
 	{doctrine mid_cis_allround}
 	{squad_cost_factor 1}
@@ -91,7 +212,7 @@
 	{charge {delay 60} {interval 90}}
 	{content "mp/cis/mid/sniper:2"}
 	{tags "all infantry cis mid"}
-	{group "squad_16"}
+	{group "squad_37"}
 	{button "inf2"}
 	{level 1}
 	{doctrine mid_cis_allround}
@@ -173,7 +294,7 @@
 {"heavy_stap"
 	{charge {delay 60} {interval 60}}
 	{tags "all light cis mid"}
-	{group "light40"}
+	{group "light61"}
 	{button "vehicles"}
 	{cost 130}
 	{score 6.5}
@@ -187,7 +308,7 @@
 {"starhawk_speeder"
 	{charge {delay 90} {interval 60}}
 	{tags "all light cis mid"}
-	{group "light41"}
+	{group "light62"}
 	{button "vehicles"}
 	{cost 170}
 	{score 8.5}
@@ -201,7 +322,7 @@
 {"banthaii_skiff"
 	{charge {delay 120} {interval 90}}
 	{tags "all light cis mid"}
-	{group "light42"}
+	{group "light63"}
 	{button "vehicles"}
 	{cost 220}
 	{score 11}
@@ -215,7 +336,7 @@
 {"arv7_platform"
 	{charge {delay 120} {interval 90}}
 	{tags "all light cis mid"}
-	{group "light43"}
+	{group "light64"}
 	{button "vehicles"}
 	{cost 260}
 	{score 13}
@@ -229,7 +350,7 @@
 {"amt_tank"
 	{charge {delay 240} {interval 90}}
 	{tags "all medium cis mid"}
-	{group "medium44"}
+	{group "medium65"}
 	{button "tanks"}
 	{cost 420}
 	{score 21}
@@ -243,7 +364,7 @@
 {"ast_tank"
 	{charge {delay 240} {interval 90}}
 	{tags "all medium cis mid"}
-	{group "medium45"}
+	{group "medium66"}
 	{button "tanks"}
 	{cost 400}
 	{score 20}
@@ -257,7 +378,7 @@
 {"aat_tank"
 	{charge {delay 360} {interval 120}}
 	{tags "all medium cis mid"}
-	{group "medium46"}
+	{group "medium67"}
 	{button "tanks"}
 	{cost 600}
 	{score 30}
@@ -271,7 +392,7 @@
 {"aat_tank_imp"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium47"}
+	{group "medium68"}
 	{button "tanks"}
 	{cost 600}
 	{score 30}
@@ -296,7 +417,7 @@
 {"tx130_imp"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium48"}
+	{group "medium69"}
 	{button "tanks"}
 	{cost 450}
 	{score 22.5}
@@ -321,7 +442,7 @@
 {"gaw_autoturret"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium49"}
+	{group "medium70"}
 	{button "tanks"}
 	{cost 250}
 	{score 12.5}
@@ -346,7 +467,7 @@
 {"aat_tank_flamer"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium50"}
+	{group "medium71"}
 	{button "tanks"}
 	{cost 620}
 	{score 31}
@@ -371,7 +492,7 @@
 {"haml_tank"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium51"}
+	{group "medium72"}
 	{button "tanks"}
 	{cost 560}
 	{score 28}
@@ -396,7 +517,7 @@
 {"tx130t_imp"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium52"}
+	{group "medium73"}
 	{button "tanks"}
 	{cost 560}
 	{score 28}
@@ -421,7 +542,7 @@
 {"canderous_tank"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium53"}
+	{group "medium74"}
 	{button "tanks"}
 	{cost 620}
 	{score 31}
@@ -446,7 +567,7 @@
 {"hag-m_heavy_artillery"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium54"}
+	{group "medium75"}
 	{button "tanks"}
 	{cost 700}
 	{score 35}
@@ -471,7 +592,7 @@
 {"ds_turbotower_turret"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium55"}
+	{group "medium76"}
 	{button "tanks"}
 	{cost 800}
 	{score 40}
@@ -496,7 +617,7 @@
 {"laat_gunship_imp"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium56"}
+	{group "medium77"}
 	{button "tanks"}
 	{cost 900}
 	{score 45}
@@ -521,7 +642,7 @@
 {"tf_droid_bomber"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis mid"}
-	{group "medium57"}
+	{group "medium78"}
 	{button "tanks"}
 	{cost 800}
 	{score 40}

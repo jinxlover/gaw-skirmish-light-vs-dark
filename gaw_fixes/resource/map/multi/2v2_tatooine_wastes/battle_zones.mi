@@ -97,9 +97,7 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
@@ -119,9 +117,7 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
@@ -141,9 +137,7 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
@@ -163,9 +157,7 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
@@ -185,9 +177,7 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
@@ -208,62 +198,62 @@
 		{zone "poly"
 			{position -1323.14 -753.36 0}
 			{Name "f1"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position -2293.62 -4482.78 0}
 			{Name "f2"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position -3286.52 3242.49 0}
 			{Name "f3"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position 1214.89 625.38 0}
 			{Name "f4"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position 2534.25 -4412.67 0}
 			{Name "f5"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position 6.02500000000009 -2025.075 0}

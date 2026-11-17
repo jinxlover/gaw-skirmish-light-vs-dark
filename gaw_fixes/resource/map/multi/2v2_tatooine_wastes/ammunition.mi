@@ -96,14 +96,19 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 5}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xe101
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
 	}
 	{Entity "ammo_point" 0x800b
 		{Position -2293.62 -4482.78}
@@ -118,14 +123,19 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 10}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xe102
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
 	}
 	{Entity "ammo_point" 0xc000
 		{Position -3286.52 3242.49}
@@ -140,14 +150,19 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 6}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xe103
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
 	}
 	{Entity "ammo_point" 0xc001
 		{Position 1214.89 625.38}
@@ -162,14 +177,19 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 7}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xe104
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
 	}
 	{Entity "ammo_point" 0xc002
 		{Position 2534.25 -4412.67}
@@ -184,14 +204,19 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 9}
+		{Able "minimap"}
+	}
+	{Entity "ammo2" 0xe105
+		{Extender "supply_zone"
+			{enabled}
+			{current 0}
+		}
 	}
 	{Entity "flag_point_base" 0xf001
 		{Position 3039.04 4317.97}
@@ -231,74 +256,79 @@
 		{Player 0}
 		{MID 902}
 	}
+	{Link 0xe101 {0x8004 "ammo"}}
+	{Link 0xe102 {0x800b "ammo"}}
+	{Link 0xe103 {0xc000 "ammo"}}
+	{Link 0xe104 {0xc001 "ammo"}}
+	{Link 0xe105 {0xc002 "ammo"}}
 	{Tags "flag" 0x8004}
 	{Tags "flag" 0x800b}
 	{Tags "flag" 0xc000}
 	{Tags "flag" 0xc001}
 	{Tags "flag" 0xc002}
-	{Tags "flag" 0xf001}
-	{Tags "flag" 0xf002}
+	{Tags "flag" "base_a" 0xf001}
+	{Tags "flag" "base_b" 0xf002}
 	{Helpers
 		(include "../am_events.inc")
 		{zone "poly"
 			{position -1323.14 -753.36 0}
 			{Name "f1"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position -2293.62 -4482.78 0}
 			{Name "f2"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position -3286.52 3242.49 0}
 			{Name "f3"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position 1214.89 625.38 0}
 			{Name "f4"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position 2534.25 -4412.67 0}
 			{Name "f5"}
-			{Point 415.75 172.21}
-			{Point 172.21 415.75}
-			{Point -172.21 415.75}
-			{Point -415.75 172.21}
-			{Point -415.75 -172.21}
-			{Point -172.21 -415.75}
-			{Point 172.21 -415.75}
 			{Point 415.75 -172.21}
+			{Point 172.21 -415.75}
+			{Point -172.21 -415.75}
+			{Point -415.75 -172.21}
+			{Point -415.75 172.21}
+			{Point -172.21 415.75}
+			{Point 172.21 415.75}
+			{Point 415.75 172.21}
 		}
 		{zone "poly"
 			{position 6.02500000000009 -2025.075 0}
@@ -311,26 +341,26 @@
 		{zone "poly"
 			{position 3039.04 4317.97 0}
 			{Name "base_a"}
-			{Point 461.94 191.34}
-			{Point 191.34 461.94}
-			{Point -191.34 461.94}
-			{Point -461.94 191.34}
-			{Point -461.94 -191.34}
-			{Point -191.34 -461.94}
-			{Point 191.34 -461.94}
 			{Point 461.94 -191.34}
+			{Point 191.34 -461.94}
+			{Point -191.34 -461.94}
+			{Point -461.94 -191.34}
+			{Point -461.94 191.34}
+			{Point -191.34 461.94}
+			{Point 191.34 461.94}
+			{Point 461.94 191.34}
 		}
 		{zone "poly"
 			{position 2526.48 -8336.71 0}
 			{Name "base_b"}
-			{Point 461.94 191.34}
-			{Point 191.34 461.94}
-			{Point -191.34 461.94}
-			{Point -461.94 191.34}
-			{Point -461.94 -191.34}
-			{Point -191.34 -461.94}
-			{Point 191.34 -461.94}
 			{Point 461.94 -191.34}
+			{Point 191.34 -461.94}
+			{Point -191.34 -461.94}
+			{Point -461.94 -191.34}
+			{Point -461.94 191.34}
+			{Point -191.34 461.94}
+			{Point 191.34 461.94}
+			{Point 461.94 191.34}
 		}
 		{vars
 			(include "../am_vars.inc")

@@ -14,15 +14,21 @@ Built and tested on game version **1.069**.
 - Infantry: B1 droids (squads, AT, flamers, snipers, engineers), BX commandos, Imperial engineers, Geonosians, Killiks, Tusken Raiders, Czerka droids, and Black Krrsantan.
 - Vehicles: the AAT (standard and flamer), AMT, AST, HAML and HAG-M artillery, the STAP, the Imperial AAT, TX-130s and ARV-7, the Canderous tank, the Starhawk, the Bantha-II skiff, the droid bomber, the Imperial LAAT, the Death Star turbolaser and the autoturret.
 
+**Specialist tab (both sides)**, modelled on the vanilla single-unit tab:
+- Light Side: Clone Trooper (rifle or carbine), Wookiee Heavy Gunners, Clone AT Troopers, Clone Engineers, AT and AP Mine Layers, Clone Medic, Clone Tank Crew, Clone Officer, Clone Sniper Team.
+- Dark Side: B1 Battle Droid, B1 Heavy Blaster Team, Tusken Heavy Gunners, B1 Rocket Droids, B1 Flamer Droid, B1 Engineer Droids, AT and AP Mine Layer Droids, B1 Medic Droid, Droid Tank Crew, OOM Command Droid, B1 Sniper Droids.
+- Kits match vanilla. Engineers get the full build menu (barricades, barbed wire, hedgehogs, foxholes, mortar pits, tank covers). Miners carry AT or AP mines. Medics carry 22 bandages and 2 medic tent kits.
+
 **Also included**
 - A main buy menu for each side, plus a doctrine panel with elite and hero units in tiers I–III.
-- A working AI for both sides, which buys infantry, AT and tanks.
+- A working AI for both sides, which buys infantry, AT and tanks. In Domination it pushes objectives and the enemy HQ instead of idling at its own HQ.
 - Engineers that build defenses and lay mines, like the base-game factions.
 - Extra **Custom** game settings with much more CP and manpower: CP 300, 400 and 600, with up to 20,000 MP.
 - Fixes for crashes in Galaxy at War on game 1.068 and later.
 
 **Star Wars map**
-- **(4) Tatooine Wastes**: a 2v2 desert map ported from the Galaxy at War expanded add-on for Men of War: Assault Squad 2. Tested in game in both **Battle Zones** and **Domination**. In the lobby's map list it's near the bottom.
+- **(4) Tatooine Wastes**: a 2v2 desert map ported from the Galaxy at War expanded add-on for Men of War: Assault Squad 2. Tested in game in both **Battle Zones** and **Domination**: zones capture, scores count, and matches end in victory or defeat. In the lobby's map list it's near the bottom.
+- Domination follows the vanilla rules: one objective is active at the start, another unlocks every 5 minutes, an objective takes 150 seconds to capture and an HQ takes 180.
 
 ## Screenshots
 
@@ -69,6 +75,7 @@ Turn other mods off.
 - Aircraft (the LAAT gunships and droid bomber) are lightly tested. Game 1.068 removed the collision profile they use, so they may behave oddly.
 - The lobby's doctrine preview window may be empty. The doctrine units themselves work in-game.
 - Unit cards are simple faction-colored placeholders. Galaxy at War has no card art for most units.
+- Galaxy at War has no medic models, so medics use the clone trooper and B1 droid models.
 - Battle Zones and Domination have been played. Frontlines and Last Stand should work but are untested.
 - On Tatooine Wastes, the parked vehicles and a few props from the original map were left out, because Gates of Hell can't load them.
 

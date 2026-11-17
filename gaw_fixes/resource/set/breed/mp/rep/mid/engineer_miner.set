@@ -10,8 +10,8 @@
 	}
 	{perks
 		(include "/set/breed/single/Star Wars/Republic/ability.inc")
-		("engineer")
 		("smg_skill_rank_2")
+		("engineer")
 	}
 	{veterancy
 		(include "/set/breed/single/Star Wars/Republic/ability.inc")

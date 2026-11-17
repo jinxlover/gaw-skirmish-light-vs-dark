@@ -9,6 +9,8 @@
 {"mp/cis/mid/antitank"	("inf_tier2" side(cis) period(mid) cost(20.0))}
 {"mp/cis/mid/engineer_1"	("inf_tier1" side(cis) period(mid) cost(8.0))}
 {"mp/cis/mid/engineer_miner"	("inf_tier1" side(cis) period(mid) cost(10.0))}
+{"mp/cis/mid/engineer_miner_ap"	("inf_tier1" side(cis) period(mid) cost(10.0))}
+{"mp/cis/mid/medic"	("inf_tier1" side(cis) period(mid) cost(15.0))}
 {"mp/cis/mid/sniper"	("inf_sniper" side(cis) period(mid) cost(100.0))}
 {"mp/cis/mid/sniper_elite"	("inf_sniper" side(cis) period(mid) cost(130.0))}
 {"mp/cis/mid/bx"	("inf_tier3" side(cis) period(mid) cost(30.0))}

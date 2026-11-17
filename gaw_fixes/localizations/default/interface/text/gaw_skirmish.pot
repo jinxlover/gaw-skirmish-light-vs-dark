@@ -26,6 +26,46 @@ msgctxt "desc/squad/gaw_wookiee_warriors(rep)"
 msgid "Wookiee Warriors"
 msgstr ""
 
+msgctxt "desc/squad/gaw_single_clone_rifle(rep)"
+msgid "Clone Trooper"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_clone_smg(rep)"
+msgid "Clone Trooper (Carbine)"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_wook_heavy(rep)"
+msgid "Wookiee Heavy Gunners"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_clone_at(rep)"
+msgid "Clone AT Troopers"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_clone_engineer(rep)"
+msgid "Clone Engineers (pair)"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_clone_miner(rep)"
+msgid "Clone AT Mine Layers"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_clone_miner_ap(rep)"
+msgid "Clone AP Mine Layers"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_clone_medic(rep)"
+msgid "Clone Medic"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_clone_crew(rep)"
+msgid "Clone Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_clone_officer(rep)"
+msgid "Clone Officer"
+msgstr ""
+
 msgctxt "desc/squad/gaw_clone_sniper(rep)"
 msgid "Clone Sniper Team"
 msgstr ""
@@ -88,6 +128,50 @@ msgstr ""
 
 msgctxt "desc/squad/gaw_killiks(cis)"
 msgid "Killik Swarm"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_b1_rifle(cis)"
+msgid "B1 Battle Droid"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_b1_mg(cis)"
+msgid "B1 Heavy Blaster Team"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_tusken_mg(cis)"
+msgid "Tusken Heavy Gunners"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_b1_at(cis)"
+msgid "B1 Rocket Droids"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_b1_flamer(cis)"
+msgid "B1 Flamer Droid"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_b1_engineer(cis)"
+msgid "B1 Engineer Droids (pair)"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_b1_miner(cis)"
+msgid "B1 AT Mine Layer Droids"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_b1_miner_ap(cis)"
+msgid "B1 AP Mine Layer Droids"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_b1_medic(cis)"
+msgid "B1 Medic Droid"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_droid_crew(cis)"
+msgid "Droid Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/gaw_single_oom_officer(cis)"
+msgid "OOM Command Droid"
 msgstr ""
 
 msgctxt "desc/squad/gaw_b1_sniper(cis)"

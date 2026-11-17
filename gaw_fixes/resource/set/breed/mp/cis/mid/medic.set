@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "b1_battledroid"}
+	{portrait "b1_battledroid"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality cis}
+	{perks
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("medic")
+		("gaw_b1_battledroid")
+		("smg_skill_rank_2")
+	}
+	{veterancy
+		(include "/set/breed/mp/cis/early/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "e5_blaster" filled}
+		{item "e5_blasters ammo" 250}
+		{item "thermaldetonator grenade" 2}
+
+		{item "b1_backpack"}
+		{item "bandage_rus" 22.5 2.5}
+		{item "tent_kit" 2}
+
+		{in_hands 0}
+	}
+}

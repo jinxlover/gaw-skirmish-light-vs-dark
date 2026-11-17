@@ -7,6 +7,8 @@
 {"mp/rep/mid/tankman"	("inf_tankman" side(rep) period(mid) cost(5.0))}
 {"mp/rep/mid/engineer"	("inf_tier2" side(rep) period(mid) cost(12.0))}
 {"mp/rep/mid/engineer_miner"	("inf_tier2" side(rep) period(mid) cost(14.0))}
+{"mp/rep/mid/engineer_miner_ap"	("inf_tier2" side(rep) period(mid) cost(14.0))}
+{"mp/rep/mid/medic"	("inf_tier2" side(rep) period(mid) cost(20.0))}
 {"mp/rep/mid/21st_officer"	("inf_officer" side(rep) period(mid) cost(70.0))}
 {"mp/rep/mid/21st_rifleman_1"	("inf_tier3" side(rep) period(mid) cost(14.0))}
 {"mp/rep/mid/21st_smg_1"	("inf_tier3" side(rep) period(mid) cost(15.0))}
