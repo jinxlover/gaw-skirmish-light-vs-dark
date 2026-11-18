@@ -1,0 +1,89 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.3))
+	{props "turret_rotator" "medium" "vision_lev04" "muzzle_amt_side" "muzzle_amt_up" "muzzle_amt_front"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+	{Extension "amt_tank.mdl"}
+	(include "/entity/[galaxy at war]/vehicles & specials/Confederacy/Light Vehicles/amt_tank/amt_tank.ext")
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_HighArmor"}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_HighArmor"}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "amt_30mm he ammo" 600}
+			{item "amt_25mm he ammo" 800}
+			{item "amt_10mm he ammo" 1600}
+			{item "ammo amt_missile" 40}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{type "main"}
+			{weapon "25mm_amt" filled}
+			("abm_dymamic_stabilised"
+				zeroing(4.0)
+				dispersion(0.20)
+			)
+			{charger "gunner"}
+			{Barrels 2}
+			{basic}
+		}
+		{place "gunside"
+			{type "coaxial"}
+			{weapon "10mm_amt" filled}
+			{foresight "foresight3"}
+			{charger "charger"}
+			{gunner "charger"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "gunfront"
+			{Barrels 2}
+			{type "secondary_main"}
+			{weapon "30mm_amt" filled}
+			{foresight "foresight2"}
+			{charger "commander"}
+			{gunner "commander"}
+			{shooter "frontsho"}
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+		{place "rocket"
+			{RestoreIKAfterAim}
+			{weapon "amt_missile weapon" filled}
+			{foresight "foresight4"}
+			{shooter "rocket"}
+			{gunner "commander"}
+			{Barrels 4}
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+	{mass 10200}
+	{Chassis
+		("mobility_tank"
+			speed(65) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(25) ;---------Max speed in reverse on road, km/h.
+			traverse(32) ;-------Track traverse, per second, in degrees.
+			weight(5.8) ;--------Weight in Tonnes.
+			power(100) ;---------Engine Power, in hp.
+			track(10) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(250) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(250) ;---------Range in km, off-road.
+		)
+	}
+}

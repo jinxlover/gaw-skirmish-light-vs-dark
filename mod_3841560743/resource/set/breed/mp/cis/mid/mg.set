@@ -14,10 +14,11 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "e5c_blaster" filled}
-		{item "e5_blasters ammo" 250}
-		{item "thermaldetonator grenade" 2}
+		{item "e5m_blaster" filled}
+		{item "e5_blasters ammo" 450}
 		{item "b1_backpack"}
+		{item "thermaldetonator grenade" 0.25 0.5}
+		{item "gaw_smokegrenade grenade" 0.25 0.5}
 
 		{in_hands 0}
 	}

@@ -1,0 +1,93 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 20mm
+	; track guards 5mm
+
+	("tank_medium_tier2")
+
+	{volume "body1"
+		{thickness 40
+			{front 43}
+			{top 28}
+			{rear 25}
+			{bottom 28}
+		}
+		{HighHardness}
+		{component "body"}
+	}
+	{volume "body2"
+		{thickness 65
+			{front 73}
+			{top 55}
+			{rear 42}
+			{bottom 28}
+		}
+		{component "body"}
+	}
+	{volume "body3"
+		{component "body"}
+		{thickness 67}
+	}
+	{volume "body4"
+		{thickness 60
+			{front 63}
+			{top 68}
+			{rear 52}
+			{bottom 28}
+		}
+		{HighHardness}
+		{component "body"}
+	}
+	{volume "body5"
+		{component "body"}
+		{thickness 52}
+	}
+	{volume "body6"
+		{component "body"}
+		{thickness 52}
+	}
+	{volume "engine"		; Hull
+		{thickness 18
+			{front 10}
+			{rear 10}
+			{bottom 25}
+		}
+		{HighHardness}
+	}
+	{volume "turret"
+		{thickness 38}
+		{HighHardness}
+		{component "turret"}
+	}
+	{volume "gun1"
+		{thickness 5}
+		{HighHardness}
+		{component "gun"}
+	}
+	{volume "gun2"
+		{thickness 5}
+		{HighHardness}
+		{component "gun"}
+	}
+	{volume "missile_turret"
+		{thickness 38}
+		{HighHardness}
+		{component "rocket"}
+	}
+	{volume "missile"
+		{thickness 43
+			{front 60}
+			{rear 60}
+		}
+		{component "rocket"}
+	}
+
+;==== CREW ====
+
+	("crew_inside")
+	("crew_driver" door(emit1) door2(emit2))
+	("crew_human"    place(gunner) door(emit1) door2(emit2) visor(visor2) anm_left(left) anm_right(right)))
+	("crew_human" place(commander)	door(emit1) door2(emit2) visor(around) anm_left(left) anm_right(right)))
+

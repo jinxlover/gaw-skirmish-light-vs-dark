@@ -15,7 +15,7 @@
 	}
 	{veterancy
 		(include "/set/breed/single/Star Wars/Republic/Delta Squad/ability.inc")
-		("veterancy_lvl_3")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "dc17m_blaster" filled}
@@ -25,6 +25,9 @@
 		{item "rep_gl_grenade ammo" 8}
 		{item "dc15s_pistol" filled}
 		{item "bandage_rus" 5}
+		{item "empdetonator grenade" 2.75 0.5}
+		{item "gaw_smokegrenade grenade" 1.75 0.5}
+		{item "impactdetonator grenade" 1.15 0.5}
 		{in_hands 0}
 	}
 }

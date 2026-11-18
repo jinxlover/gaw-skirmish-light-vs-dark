@@ -18,11 +18,13 @@
 	{inventory
 		{item "e5_sniper" filled}
 		{item "e5_blasters ammo" 60}
-		{item "thermaldetonator grenade" 2}
 
 		{item "bandage_ger" 4.5 0.5}
 		{item "knife_ger"}
 		{item "b1_backpack"}
+		{item "thermaldetonator grenade" 0.25 0.5}
+		{item "gaw_smokegrenade grenade" 1.25 0.5}
+		{item "impactdetonator grenade" 0.15 0.5}
 
 		{in_hands 0}
 	}

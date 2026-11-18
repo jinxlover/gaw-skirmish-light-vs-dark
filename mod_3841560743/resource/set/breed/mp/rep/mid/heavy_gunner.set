@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "clone"}
+	{portrait "ger_regular"}
+	{icon "mgun"}
+	{icon_priority 0}
+	{nationality rep}
+	{armors
+		{head clone_helmet_p2}
+	}
+	{perks
+		(include "/set/breed/mp/rep/mid/ability.inc")
+		("mg_skill_rank_2")
+	}
+	{veterancy
+		(include "/set/breed/mp/rep/mid/ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+
+		{item "z6rotary_mgun" filled}
+		{item "ammo z6_blasters" 600}
+		{item "bandage_ger" 3.5 0.5}
+		{item "shovel_ger"}
+		{item "empdetonator grenade" 0.25 0.5}
+		{item "gaw_smokegrenade grenade" 0.25 0.5}
+
+		{in_hands 0}
+	}
+}

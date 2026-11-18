@@ -7,11 +7,12 @@
 	{nationality geonosian}
 	{perks
 		(include "/set/breed/single/Star Wars/Galaxy/Geonosis/- geonosians/warriors/ability.inc")
-		("mg_skill_rank_2")
+		("tier3_standard")
+		("mg_skill_rank_3")
 	}
 	{veterancy
 		(include "/set/breed/single/Star Wars/Galaxy/Geonosis/- geonosians/warriors/ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "sonic_blaster_pistol" filled}

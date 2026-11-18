@@ -14,16 +14,18 @@
 	}
 	{veterancy
 		(include "/set/breed/mp/cis/early/ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "e5_sniper" filled}
 		{item "e5_blasters ammo" 80}
-		{item "thermaldetonator grenade" 2}
 
 		{item "bandage_ger" 5.5 0.5}
 		{item "knife_ger"}
 		{item "b1_antenna"}
+		{item "thermaldetonator grenade" 0.5 0.5}
+		{item "gaw_smokegrenade grenade" 1.75 0.5}
+		{item "impactdetonator grenade" 0.5 0.5}
 
 		{in_hands 0}
 	}

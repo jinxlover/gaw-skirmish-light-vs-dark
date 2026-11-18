@@ -10,19 +10,22 @@
 	}
 	{perks
 		(include "/set/breed/mp/rep_65th/mid/ability.inc")
-		("rifle_skill_rank_2")
+		("tier3_standard")
+		("rifle_skill_rank_3")
 	}
 	{veterancy
 		(include "/set/breed/mp/rep_65th/mid/ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "dc15a_rifle" filled}
 		{item "dc_blasters ammo" 250}
-		{item "empdetonator grenade" 2}
 
 		{item "bandage_ger" 3.5 0.5}
 		{item "shovel_ger"}
+		{item "empdetonator grenade" 2.75 0.5}
+		{item "gaw_smokegrenade grenade" 1.75 0.5}
+		{item "impactdetonator grenade" 0.95 0.5}
 
 		{in_hands 0}
 	}

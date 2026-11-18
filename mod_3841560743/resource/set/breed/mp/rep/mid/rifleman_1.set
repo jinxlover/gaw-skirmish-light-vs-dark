@@ -19,10 +19,12 @@
 	{inventory
 		{item "dc15a_rifle" filled}
 		{item "dc_blasters ammo" 250}
-		{item "empdetonator grenade" 2}
 
 		{item "bandage_ger" 3.5 0.5}
 		{item "shovel_ger"}
+		{item "empdetonator grenade" 2.25 0.5}
+		{item "gaw_smokegrenade grenade" 0.25 0.5}
+		{item "impactdetonator grenade" 0.5 0.5}
 
 		{in_hands 0}
 	}

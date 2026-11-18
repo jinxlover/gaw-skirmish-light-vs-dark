@@ -1,0 +1,107 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 20mm
+	; track guards 5mm
+
+	("tank_heavy_tier2")
+
+	{Volume "body"
+		{component "body"}
+		{thickness 175}
+	}
+	{Volume "engine"
+		{thickness 35}
+	}
+	{Volume "gunback"
+		{thickness 25}
+	}
+	{Volume "gunfront"
+		{thickness 25}
+	}
+	{Volume "gunleback"
+		{thickness 15}
+	}
+	{Volume "gunlefront"
+		{thickness 15}
+	}
+	{Volume "gunriback"
+		{thickness 15}
+	}
+	{Volume "gunrifront"
+		{thickness 15}
+	}
+	{Volume "turretback"
+		{thickness 65}
+	}
+	{Volume "turretfront"
+		{thickness 65}
+	}
+	{Volume "turretleback"
+		{thickness 45}
+	}
+	{Volume "turretlefront"
+		{thickness 45}
+	}
+	{Volume "turretriback"
+		{thickness 45}
+	}
+	{Volume "turretrifront"
+		{thickness 45}
+	}
+
+;==== CREW ====
+
+	("crew_inside")
+	("crew_driver" door(emit1))
+	("crew_human"    place(gunner) door(emit1) door2(emit2) visor(visor3) anm_left(left) anm_right(right)))
+	("crew_human" place(commander)	door(emit1) door2(emit2) visor(visor1) anm_left(left) anm_right(right)))
+	("crew_human" place(charger)	door(emit1) door2(emit2) visor(visor2) anm_left(left) anm_right(right)))
+	("crew_human"    place(gunner1) door(emit1) door2(emit2) visor(visor4) anm_left(left) anm_right(right)))
+	("crew_human"    place(gunner2) door(emit3) door2(emit4) visor(visor6) anm_left(left) anm_right(right)))
+	("crew_human"    place(gunner3) door(emit3) door2(emit4) visor(visor5) anm_left(left) anm_right(right)))
+	("crew_human"    place(gunner4) door(emit3) door2(emit4) visor(visor8) anm_left(left) anm_right(right)))
+	("crew_human"    place(gunner5) door(emit3) door2(emit4) visor(visor7) anm_left(left) anm_right(right)))
+
+
+(define "seat_inside"
+	{boarder
+		{anm "passenger"
+			{forward	{begin	"board_tank"}}
+			{reverse 	{end	"board_tank" -1}}
+		}
+	}
+)
+(define "passenger_invisible"
+	{placer
+		{place "%place" {group "%place"} {linkbone "%bone"} {turnoff {sensor} {visible}}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+	("seat_inside")
+	("passenger_invisible" place(seat1)	bone(seat01)	door(emit5)	animation(passenger))
+	("passenger_invisible" place(seat2)	bone(seat02)	door(emit6)	animation(passenger))
+	("passenger_invisible" place(seat3)	bone(seat03)	door(emit5)	animation(passenger))
+	("passenger_invisible" place(seat4)	bone(seat04)	door(emit6)	animation(passenger))
+	("passenger_invisible" place(seat5)	bone(seat05)	door(emit5)	animation(passenger))
+	("passenger_invisible" place(seat6)	bone(seat06)	door(emit6)	animation(passenger))
+	("passenger_invisible" place(seat7)	bone(seat07)	door(emit5)	animation(passenger))
+	("passenger_invisible" place(seat8)	bone(seat08)	door(emit6)	animation(passenger))
+	("passenger_invisible" place(seat9)	bone(seat09)	door(emit5)	animation(passenger))
+	("passenger_invisible" place(seat10)	bone(seat10)	door(emit6)	animation(passenger))
+	("passenger_invisible" place(seat11)	bone(seat11)	door(emit1)	animation(passenger))
+	("passenger_invisible" place(seat12)	bone(seat12)	door(emit1)	animation(passenger))
+	("passenger_invisible" place(seat13)	bone(seat13)	door(emit2)	animation(passenger))
+	("passenger_invisible" place(seat14)	bone(seat14)	door(emit2)	animation(passenger))
+	("passenger_invisible" place(seat15)	bone(seat15)	door(emit3)	animation(passenger))
+	("passenger_invisible" place(seat16)	bone(seat16)	door(emit3)	animation(passenger))
+	("passenger_invisible" place(seat17)	bone(seat17)	door(emit4)	animation(passenger))
+	("passenger_invisible" place(seat18)	bone(seat18)	door(emit4)	animation(passenger))
+	("passenger_invisible" place(seat19)	bone(seat19)	door(emit3)	animation(passenger))
+	("passenger_invisible" place(seat20)	bone(seat20)	door(emit4)	animation(passenger))
+)
+

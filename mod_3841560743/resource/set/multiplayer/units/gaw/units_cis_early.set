@@ -3,7 +3,7 @@
 	{charge {delay 0} {interval 20}}
 	{content "mp/cis/mid/sergeant:1 mp/cis/mid/rifleman_1:7 mp/cis/mid/mg:1 mp/cis/mid/smg_1:2"}
 	{tags "all infantry cis early"}
-	{group "squad_18"}
+	{group "squad_19"}
 	{button "inf1"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -14,7 +14,7 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/sergeant:1 mp/cis/mid/antitank:3"}
 	{tags "all infantry cis early"}
-	{group "squad_19"}
+	{group "squad_20"}
 	{button "inf1"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -25,7 +25,7 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/corporal:1 mp/cis/mid/flamer:3"}
 	{tags "all infantry cis early"}
-	{group "squad_20"}
+	{group "squad_21"}
 	{button "inf1"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -36,7 +36,7 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/corporal:1 mp/cis/mid/engineer_1:3 mp/cis/mid/engineer_miner:1"}
 	{tags "all infantry cis early"}
-	{group "squad_21"}
+	{group "squad_22"}
 	{button "inf1"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -47,7 +47,7 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/imp_engineer_1:2 mp/cis/mid/imp_engineer_2:2 mp/cis/mid/imp_gunner:2"}
 	{tags "all infantry cis early"}
-	{group "squad_22"}
+	{group "squad_23"}
 	{button "inf1"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -58,7 +58,7 @@
 	{charge {delay 0} {interval 40}}
 	{content "mp/cis/mid/geo_rifle:4 mp/cis/mid/geo_pistol:4"}
 	{tags "all infantry cis early"}
-	{group "squad_23"}
+	{group "squad_24"}
 	{button "inf1"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -69,7 +69,7 @@
 	{charge {delay 0} {interval 40}}
 	{content "mp/cis/mid/tusken_rifle:3 mp/cis/mid/tusken_smg:3 mp/cis/mid/tusken_mgun:1"}
 	{tags "all infantry cis early"}
-	{group "squad_24"}
+	{group "squad_25"}
 	{button "inf1"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -80,7 +80,7 @@
 	{charge {delay 30} {interval 60}}
 	{content "mp/cis/mid/killik_1:4 mp/cis/mid/killik_2:3"}
 	{tags "all infantry cis early"}
-	{group "squad_25"}
+	{group "squad_26"}
 	{button "inf1"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -91,7 +91,7 @@
 	{charge {delay 0} {interval 3}}
 	{content "mp/cis/mid/rifleman_1:1"}
 	{tags "all infantry cis early"}
-	{group "squad_26"}
+	{group "squad_27"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -102,7 +102,7 @@
 	{charge {delay 0} {interval 60}}
 	{content "mp/cis/mid/mg:2"}
 	{tags "all infantry cis early"}
-	{group "squad_27"}
+	{group "squad_28"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -113,7 +113,7 @@
 	{charge {delay 0} {interval 60}}
 	{content "mp/cis/mid/tusken_mgun:2"}
 	{tags "all infantry cis early"}
-	{group "squad_28"}
+	{group "squad_29"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -124,7 +124,7 @@
 	{charge {delay 0} {interval 30}}
 	{content "mp/cis/mid/antitank:2"}
 	{tags "all infantry cis early"}
-	{group "squad_29"}
+	{group "squad_30"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -135,7 +135,7 @@
 	{charge {delay 0} {interval 60}}
 	{content "mp/cis/mid/flamer:1"}
 	{tags "all infantry cis early"}
-	{group "squad_30"}
+	{group "squad_31"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -146,7 +146,7 @@
 	{charge {delay 0} {interval 60}}
 	{content "mp/cis/mid/engineer_1:2"}
 	{tags "all infantry cis early"}
-	{group "squad_31"}
+	{group "squad_32"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -157,7 +157,7 @@
 	{charge {delay 0} {interval 60}}
 	{content "mp/cis/mid/engineer_miner:2"}
 	{tags "all infantry cis early"}
-	{group "squad_32"}
+	{group "squad_33"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -168,7 +168,7 @@
 	{charge {delay 0} {interval 60}}
 	{content "mp/cis/mid/engineer_miner_ap:2"}
 	{tags "all infantry cis early"}
-	{group "squad_33"}
+	{group "squad_34"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -179,7 +179,7 @@
 	{charge {delay 0} {interval 0}}
 	{content "mp/cis/mid/medic:1"}
 	{tags "all infantry cis early"}
-	{group "squad_34"}
+	{group "squad_35"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -190,7 +190,7 @@
 	{charge {delay 150} {interval 150}}
 	{content "mp/cis/mid/tank_commander:1 mp/cis/mid/tankman:4"}
 	{tags "all infantry cis early"}
-	{group "squad_35"}
+	{group "squad_36"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -201,7 +201,7 @@
 	{charge {delay 120} {interval 180}}
 	{content "mp/cis/mid/officer:1"}
 	{tags "all infantry cis early"}
-	{group "squad_36"}
+	{group "squad_37"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -212,7 +212,7 @@
 	{charge {delay 60} {interval 90}}
 	{content "mp/cis/mid/sniper:2"}
 	{tags "all infantry cis early"}
-	{group "squad_37"}
+	{group "squad_38"}
 	{button "inf2"}
 	{level 1}
 	{doctrine early_cis_allround}
@@ -294,13 +294,13 @@
 {"heavy_stap"
 	{charge {delay 60} {interval 60}}
 	{tags "all light cis early"}
-	{group "light61"}
+	{group "light62"}
 	{button "vehicles"}
 	{cost 130}
 	{score 6.5}
 	{cw 1}
 	{cp 4}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman )"}
 	{doctrine early_cis_allround}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
@@ -308,7 +308,7 @@
 {"starhawk_speeder"
 	{charge {delay 90} {interval 60}}
 	{tags "all light cis early"}
-	{group "light62"}
+	{group "light63"}
 	{button "vehicles"}
 	{cost 170}
 	{score 8.5}
@@ -322,7 +322,7 @@
 {"banthaii_skiff"
 	{charge {delay 120} {interval 90}}
 	{tags "all light cis early"}
-	{group "light63"}
+	{group "light64"}
 	{button "vehicles"}
 	{cost 220}
 	{score 11}
@@ -336,13 +336,13 @@
 {"arv7_platform"
 	{charge {delay 120} {interval 90}}
 	{tags "all light cis early"}
-	{group "light64"}
+	{group "light65"}
 	{button "vehicles"}
 	{cost 260}
 	{score 13}
 	{cw 2}
 	{cp 8}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman )"}
 	{doctrine early_cis_allround}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
@@ -350,13 +350,13 @@
 {"amt_tank"
 	{charge {delay 240} {interval 90}}
 	{tags "all medium cis early"}
-	{group "medium65"}
+	{group "medium66"}
 	{button "tanks"}
 	{cost 420}
 	{score 21}
 	{cw 3}
 	{cp 12}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{doctrine early_cis_allround}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
@@ -364,13 +364,13 @@
 {"ast_tank"
 	{charge {delay 240} {interval 90}}
 	{tags "all medium cis early"}
-	{group "medium66"}
+	{group "medium67"}
 	{button "tanks"}
 	{cost 400}
 	{score 20}
 	{cw 3}
 	{cp 12}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman )"}
 	{doctrine early_cis_allround}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
@@ -378,13 +378,13 @@
 {"aat_tank"
 	{charge {delay 360} {interval 120}}
 	{tags "all medium cis early"}
-	{group "medium67"}
+	{group "medium68"}
 	{button "tanks"}
 	{cost 600}
 	{score 30}
 	{cw 4}
 	{cp 18}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{doctrine early_cis_allround}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
@@ -392,13 +392,13 @@
 {"aat_tank_imp"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis early"}
-	{group "medium68"}
+	{group "medium69"}
 	{button "tanks"}
 	{cost 600}
 	{score 30}
 	{cw 4}
 	{cp 18}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
 }
@@ -408,7 +408,7 @@
 	{squad_cost_factor 0}
 	{tags "all doctrine cis early"}
 	{button "doctrine"}
-	{content "aat_tank_imp ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "aat_tank_imp ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{charge {delay 300} {interval 300}}
 	{group "doctrine_t1"}
 	{doctrine early_cis_allround}
@@ -417,13 +417,13 @@
 {"tx130_imp"
 	{charge {delay 0} {interval 0}}
 	{tags "all doctrineonly medium cis early"}
-	{group "medium69"}
+	{group "medium70"}
 	{button "tanks"}
 	{cost 450}
 	{score 22.5}
 	{cw 3}
 	{cp 13}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
 }
@@ -433,36 +433,11 @@
 	{squad_cost_factor 0}
 	{tags "all doctrine cis early"}
 	{button "doctrine"}
-	{content "tx130_imp ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "tx130_imp ( mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{charge {delay 300} {interval 300}}
 	{group "doctrine_t1"}
 	{doctrine early_cis_allround}
 	{cost 30}
-}
-{"gaw_autoturret"
-	{charge {delay 0} {interval 0}}
-	{tags "all doctrineonly medium cis early"}
-	{group "medium70"}
-	{button "tanks"}
-	{cost 250}
-	{score 12.5}
-	{cw 2}
-	{cp 6}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman )"}
-	{squad_cost_factor 1}
-	{round_multiple 5.0}
-}
-{"doctrine_gaw_gaw_autoturret"
-	{level 1}
-	{research_stage 1}
-	{squad_cost_factor 0}
-	{tags "all doctrine cis early"}
-	{button "doctrine"}
-	{content "gaw_autoturret ( mp/cis/mid/tankman mp/cis/mid/tankman )"}
-	{charge {delay 300} {interval 300}}
-	{group "doctrine_t1"}
-	{doctrine early_cis_allround}
-	{cost 20}
 }
 {"aat_tank_flamer"
 	{charge {delay 0} {interval 0}}
@@ -473,7 +448,7 @@
 	{score 31}
 	{cw 4}
 	{cp 18}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
 }
@@ -483,7 +458,7 @@
 	{squad_cost_factor 0}
 	{tags "all doctrine cis early"}
 	{button "doctrine"}
-	{content "aat_tank_flamer ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "aat_tank_flamer ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{charge {delay 900} {interval 300}}
 	{group "doctrine_t2"}
 	{doctrine early_cis_allround}
@@ -498,7 +473,7 @@
 	{score 28}
 	{cw 4}
 	{cp 16}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
 }
@@ -508,7 +483,7 @@
 	{squad_cost_factor 0}
 	{tags "all doctrine cis early"}
 	{button "doctrine"}
-	{content "haml_tank ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "haml_tank ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{charge {delay 900} {interval 300}}
 	{group "doctrine_t2"}
 	{doctrine early_cis_allround}
@@ -523,7 +498,7 @@
 	{score 28}
 	{cw 4}
 	{cp 16}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
 }
@@ -533,7 +508,7 @@
 	{squad_cost_factor 0}
 	{tags "all doctrine cis early"}
 	{button "doctrine"}
-	{content "tx130t_imp ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "tx130t_imp ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{charge {delay 900} {interval 300}}
 	{group "doctrine_t2"}
 	{doctrine early_cis_allround}
@@ -548,7 +523,7 @@
 	{score 31}
 	{cw 4}
 	{cp 18}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
 }
@@ -558,7 +533,7 @@
 	{squad_cost_factor 0}
 	{tags "all doctrine cis early"}
 	{button "doctrine"}
-	{content "canderous_tank ( mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "canderous_tank ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{charge {delay 900} {interval 300}}
 	{group "doctrine_t2"}
 	{doctrine early_cis_allround}
@@ -623,7 +598,7 @@
 	{score 45}
 	{cw 4}
 	{cp 28}
-	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "* ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
 }
@@ -633,7 +608,7 @@
 	{squad_cost_factor 0}
 	{tags "all doctrine cis early"}
 	{button "doctrine"}
-	{content "laat_gunship_imp ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
+	{content "laat_gunship_imp ( mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman mp/cis/mid/tankman )"}
 	{charge {delay 1800} {interval 300}}
 	{group "doctrine_t3"}
 	{doctrine early_cis_allround}

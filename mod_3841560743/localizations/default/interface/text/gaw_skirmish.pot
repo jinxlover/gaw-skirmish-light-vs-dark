@@ -34,6 +34,10 @@ msgctxt "desc/squad/gaw_single_clone_smg(rep)"
 msgid "Clone Trooper (Carbine)"
 msgstr ""
 
+msgctxt "desc/squad/gaw_single_clone_heavy(rep)"
+msgid "Clone Heavy Gunners (Z-6)"
+msgstr ""
+
 msgctxt "desc/squad/gaw_single_wook_heavy(rep)"
 msgid "Wookiee Heavy Gunners"
 msgstr ""
@@ -264,10 +268,6 @@ msgstr ""
 
 msgctxt "desc/squad/doctrine_gaw_tx130_imp"
 msgid "<c(B29557)>( I )</c> TX-130"
-msgstr ""
-
-msgctxt "desc/squad/doctrine_gaw_gaw_autoturret"
-msgid "<c(B29557)>( I )</c> A-1 Automatic Turret"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_gaw_aat_tank_flamer"

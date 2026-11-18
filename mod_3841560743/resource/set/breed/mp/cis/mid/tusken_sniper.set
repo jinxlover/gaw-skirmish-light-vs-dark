@@ -14,7 +14,7 @@
 	}
 	{veterancy
 		(include "/set/breed/single/Star Wars/Galaxy/Tatooine/- Tusken Raiders/normal/ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "cyclerrifle_sc" filled}

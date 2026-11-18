@@ -19,9 +19,11 @@
 	{inventory
 		{item "dc15s_carbine" filled}
 		{item "dc_blasters ammo" 250}
-		{item "empdetonator grenade" 2}
 
 		{item "bandage_rus" 3.5 0.5}
+		{item "empdetonator grenade" 2.25 0.5}
+		{item "gaw_smokegrenade grenade" 0.25 0.5}
+		{item "impactdetonator grenade" 0.15 0.5}
 
 		{in_hands 0}
 	}

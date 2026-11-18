@@ -1,0 +1,74 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.3))
+	{props "turret_rotator" "medium" "vision_lev04" "muzzle_tx80sides_b" "muzzle_tx130g_b"}
+	{Extension "tx80.mdl"}
+	(include "/entity/[galaxy at war]/vehicles & specials/Republic/Medium Vehicles/tx80/tx80.ext")
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_LowTank_left"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_driver" -1}}
+		}
+		{anm "armor"
+			{forward {begin "board_lowArmor"} {end "gaw_seattx130"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_lowArmor"} {end "gaw_seattx1302"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+	("seat_human" place(seat1) bone(seat01) door(emit1)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit2)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit3)  animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit4)  animation(armor1))
+	("seat_human" place(seat5) bone(seat05) door(emit5)  animation(armor))
+	("seat_human" place(seat6) bone(seat06) door(emit6)  animation(armor))
+
+	{extender "inventory"
+		{box
+			{item "tx80_50mm he ammo" 60}
+			{item "tx80_50mm ap ammo" 60}
+			{item "tx80_80mm he ammo" 20}
+			{item "tx80_80mm ap ammo" 20}
+		}
+	}
+	{Weaponry
+		{place "gunup"
+			{type "main"}
+			{weapon "50mm_tx80" filled}
+			{foresight "foresight3"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{rotate}
+			{basic}
+		}
+		{place "gun"
+			{Barrels 4}
+			{type "main"}
+			{weapon "80mm_tx80" filled}
+			{charger "driver"}
+			{gunner "driver"}
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+	{mass 10200}
+	{Chassis
+		("mobility_tank"
+			speed(60) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(25) ;---------Max speed in reverse on road, km/h.
+			traverse(32) ;-------Track traverse, per second, in degrees.
+			weight(5.8) ;--------Weight in Tonnes.
+			power(100) ;---------Engine Power, in hp.
+			track(10) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(250) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(250) ;---------Range in km, off-road.
+		)
+	}
+}

@@ -27,6 +27,8 @@
 		{item "shovel_ger"}
 		{item "pickaxe"}
 		{item "m39 mine" 6.5 0.5}
+		{item "thermaldetonator grenade" 2.25 0.5}
+		{item "gaw_smokegrenade grenade" 0.5 0.5}
 		{in_hands 0}
 	}
 }

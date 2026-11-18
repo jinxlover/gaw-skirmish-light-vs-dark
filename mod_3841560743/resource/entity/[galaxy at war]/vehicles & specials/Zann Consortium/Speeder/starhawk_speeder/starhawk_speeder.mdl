@@ -1,0 +1,170 @@
+;Exported by: Julien
+;Date:        Fri Mar  1 12:34:32 2024
+;File:        C:\Users\julie\Desktop\3ds to export\Starhawk_Speeder.max
+{Skeleton
+	{animation
+		{sequence "hovering" {speed 0.1}}
+	}
+	{bone revolute "basis"
+		{limits 0 0}
+		{speed 0.01}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Position 0	0	5}
+			{VolumeView "body.ply"}
+			{bone "driver"
+				{Position -9.08997	0	15.4233}
+			}
+			{bone "seat"
+				{Position -19.6905	0	15.4233}
+			}
+			{bone revolute "mgun_yaw"
+				{limits -45 45}
+				{speed 0.03}
+				{Position 27.1502	0	2.43298}
+				{bone revolute "mgun_rot"
+				{limits -20 20}
+				{speed 0.03}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					0	0	0
+				}
+				{VolumeView "mgun_rot.ply"}
+				{bone "shooter00"
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						6.88663	-0.0015831	5.97025
+					}
+				}
+				{bone "shooter01"
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						6.88663	-0.0015831	-5.97025
+					}
+				}
+				{bone "foresight3"
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						6.88934	-0.0015831	0
+					}
+				}
+			}
+			}
+			{bone "visor"
+				{Position 4.69154	0	27.1346}
+			}
+			{bone "fxsmoke1"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					-32.5669	0	13.7231
+				}
+			}
+		}
+		{bone "emit2"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-10.6768	11.4802	0
+			}
+		}
+		{bone "emit1"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-10.6768	-11.48	0
+			}
+		}
+	}
+}
+{Obstacle "ob1"
+	{Obb2
+		{Center -24.9419 1.43051e-06}
+		{Extent 3.87709 15.0454}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "ob2"
+	{Obb2
+		{Center 1.4215 1.66893e-06}
+		{Extent 33.75 5}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 8 7 10}
+	{Bone "body"}
+	{Matrix34
+		0.995784	0	0.0917302
+		0	1	0
+		-0.0917302	0	0.995784
+		5.1667	0	9.70475
+	}
+}
+{Volume "body2"
+	{Cylinder 2.98141 28.5}
+	{Bone "body"}
+	{Matrix34
+		0.490034	0	0.871703
+		0	1	0
+		-0.871703	0	0.490034
+		16.6681	0	12.4682
+	}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Position 28.1717	0	1.20586}
+}
+{Volume "body4"
+	{Box 12.5 7 7}
+	{Bone "body"}
+	{Position -26.3906	0	13.9046}
+}
+{Volume "body5"
+	{Box 7.11975 7.52894 2.25}
+	{Bone "body"}
+	{Position -24.8357	10.8711	7.16783}
+}
+{Volume "body6"
+	{Box 7.11975 7.52894 2.25}
+	{Bone "body"}
+	{Position -24.8357	-10.871	7.16782}
+}
+{Volume "body7"
+	{Box 1.25 14.9875 6.5}
+	{Bone "body"}
+	{Matrix34
+		0.96522	0	0.261439
+		0	1	0
+		-0.261439	0	0.96522
+		-14.2736	0	5.32272
+	}
+}
+{Volume "body8"
+	{Box 8.5 7 4}
+	{Bone "body"}
+	{Position 2.79354	0	18.0933}
+}
+{Volume "body"
+	{Box 31.3433 9.00199 10.0659}
+	{Bone "body"}
+	{Position -8.66082	0	11.2828}
+}

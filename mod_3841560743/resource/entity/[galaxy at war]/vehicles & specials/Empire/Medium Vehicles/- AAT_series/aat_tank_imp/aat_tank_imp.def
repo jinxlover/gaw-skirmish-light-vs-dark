@@ -1,0 +1,123 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.3))
+	{props "aattank_vitality" "turret_rotator" "medium" "vision_lev04" "muzzle_aatsides_g" "muzzle_aatsidessmall_g" "muzzle_aat_g"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+	{Extension "aat_tank.mdl"}
+	(include "/entity/[galaxy at war]/vehicles & specials/Empire/Medium Vehicles/- AAT_series/aat_tank_imp/aat_tank.ext")
+
+	{boarder
+		{door "emit0"}
+		{door "emit1"}
+		{door "emit6"}
+		{anm "driver"
+			{forward {begin "gaw_driveraat"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_driver" -1}}
+		}
+		{anm "armor"
+			{forward {begin "board_HighArmor"} {end "gaw_seataat1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "gaw_seataat2"}}
+			{reverse {end "emit_body"}}
+		}
+		{anm "left"
+			{forward {begin "gaw_crewaat"} {base "open"}}
+			{reverse {end "emit_tank_2_hold"} {base "open" -1}}
+		}
+		{anm "right"
+			{forward {begin "gaw_crewaat"} {base "open"}}
+			{reverse {end "emit_tank_2_hold"} {base "open" -1}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit2)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit3)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit4)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit5)  animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "aati_100mm ap ammo" 40}
+			{item "aati_100mm he ammo" 40}
+			{item "aati_25mm he ammo" 800}
+			{item "aati_10mm he ammo" 1600}
+			{item "ammo ie5_blasters" 2000}
+			{item "ammo aat_missile" 60}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{type "main"}
+			{weapon "100mm_aati" filled}
+			{charger "gunner"}
+			{gunner "gunner"}
+			("abm_dymamic_stabilised"
+				zeroing(4.0)
+				dispersion(0.20)
+			)
+			{basic}
+		}
+		{place "mgun"
+			{type "coaxial"}
+			{weapon "ie5m_blaster_tank" filled}
+			{foresight "foresight3"}
+			{charger "gunner"}
+			{gunner "gunner"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "gun2"
+			{Barrels 2}
+			{type "secondary_main"}
+			{weapon "25mm_aati" filled}
+			{foresight "foresight2"}
+			{charger "commander"}
+			{gunner "commander"}
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+		{place "gun3"
+			{Barrels 4}
+			{type "secondary_main"}
+			{weapon "10mm_aati" filled}
+			{foresight "foresight4"}
+			{charger "charger"}
+			{gunner "charger"}
+			{shooter "smshooter"}
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+		{place "rocket"
+			{RestoreIKAfterAim}
+			{weapon "aat_missile weapon" filled}
+			{foresight "foresight5"}
+			{shooter "rshooter"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{Barrels 6}
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+	{mass 12200}
+	{Chassis
+		("mobility_tank"
+			speed(65) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(25) ;---------Max speed in reverse on road, km/h.
+			traverse(32) ;-------Track traverse, per second, in degrees.
+			weight(5.8) ;--------Weight in Tonnes.
+			power(100) ;---------Engine Power, in hp.
+			track(10) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(250) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(250) ;---------Range in km, off-road.
+		)
+	}
+}

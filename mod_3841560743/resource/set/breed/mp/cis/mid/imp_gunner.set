@@ -24,6 +24,9 @@
 		{item "e11b_blaster" filled}
 		{item "ammo e11_blasters" 150}
 		{item "bandage_ger" 1.5 0.5}
+		{item "thermaldetonator grenade" 2.25 0.5}
+		{item "gaw_smokegrenade grenade" 0.25 0.5}
+		{item "impactdetonator grenade" 0.5 0.5}
 		{in_hands 0}
 	}
 }

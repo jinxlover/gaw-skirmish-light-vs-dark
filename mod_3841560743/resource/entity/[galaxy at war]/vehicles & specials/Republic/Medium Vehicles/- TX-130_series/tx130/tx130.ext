@@ -1,0 +1,80 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 20mm
+	; track guards 5mm
+
+	("tank_medium_tier2")
+
+	{volume "body1"
+		{component "body"}
+		{thickness 40
+			{front 48}
+			{top 40}
+			{rear 30}
+			{bottom 26}
+		}
+		{HighHardness}
+	}
+	{volume "body2"
+		{component "body"}
+		{thickness 40
+			{front 45}
+			{top 40}
+			{rear 30}
+			{bottom 26}
+		}
+		{HighHardness}
+	}
+	{volume "body3"
+		{component "body"}
+		{thickness 45
+			{front 45}
+			{top 60}
+			{rear 30}
+			{bottom 26}
+		}
+		{HighHardness}
+	}
+	{volume "body4"
+		{component "body"}
+		{thickness 50
+			{front 50}
+			{top 40}
+			{rear 40}
+			{bottom 36}
+		}
+		{HighHardness}
+	}
+	{volume "body5"
+		{component "body"}
+		{thickness 50}
+	}
+	{volume "body6"
+		{component "body"}
+		{thickness 50}
+	}
+	{volume "engine"		; Hull
+		{thickness 45
+			{front 20}
+			{rear 20}
+			{bottom 13}
+		}
+		{HighHardness}
+	}
+	{volume "body7"
+		{component "body"}
+		{thickness 48}
+	}
+	{volume "body8"
+		{component "body"}
+		{thickness 48}
+	}
+
+;==== CREW ====
+
+	("crew_inside")
+	("crew_driver" door(emit0) door2(emit5))
+	("crew_human" place(gunner) door(emit) door2(emit5) visor(main))
+

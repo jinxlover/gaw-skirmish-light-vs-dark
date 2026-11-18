@@ -12,6 +12,7 @@ Purchases["mid.rep"] = {
 			{priority = 1.2, type = {"Class3", "Infantry", "Squad",}, unit = "gaw_clone_engineers(rep)"},
 			{priority = 1.2, type = {"Class3", "Infantry", "Squad",}, unit = "gaw_naboo_guard(rep)"},
 			{priority = 1.2, type = {"Class2", "Infantry", "Squad",}, unit = "gaw_wookiee_warriors(rep)"},
+			{priority = 1.2, type = {"Class2", "Infantry", "Squad",}, unit = "gaw_single_clone_heavy(rep)"},
 			{priority = 1.2, type = {"Class2", "Infantry", "Squad",}, unit = "gaw_clone_sniper(rep)"},
 			{priority = 0.8, type = {"Class3", "Vehicle", "Light",}, unit = "105k_lancerbike"},
 			{priority = 0.8, type = {"Class3", "Vehicle", "Light",}, unit = "v25_speeder"},

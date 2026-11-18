@@ -1,0 +1,115 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 20mm
+	; track guards 5mm
+
+	("tank_medium_tier2")
+
+	{volume "body1"
+		{thickness 40
+			{front 48}
+			{top 40}
+			{rear 30}
+			{bottom 26}
+		}
+		{HighHardness}
+	}
+	{volume "body2"
+		{thickness 40
+			{front 48}
+			{top 40}
+			{rear 30}
+			{bottom 26}
+		}
+		{HighHardness}
+	}
+	{volume "body3"
+		{thickness 40
+			{front 52}
+			{top 40}
+			{rear 40}
+			{bottom 26}
+		}
+		{HighHardness}
+	}
+	{volume "body4"
+		{thickness 45}
+	}
+	{volume "body5"
+		{thickness 48}
+	}
+	{volume "body6"
+		{thickness 48}
+	}
+	{volume "body"
+		{thickness 48
+			{front 62}
+			{top 60}
+			{rear 40}
+			{bottom 36}
+		}
+		{HighHardness}
+	}
+	{volume "engine"		; Hull
+		{thickness 45
+			{front 20}
+			{rear 20}
+			{bottom 13}
+		}
+		{HighHardness}
+	}
+	{volume "gun_rot1"
+		{thickness 18}
+		{HighHardness}
+	}
+	{volume "gun_rot2"
+		{thickness 18}
+		{HighHardness}
+	}
+	{volume "gun1"
+		{thickness 8}
+		{HighHardness}
+	}
+	{volume "gun2"
+		{thickness 8}
+		{HighHardness}
+	}
+	{volume "turret"
+		{thickness 39}
+		{HighHardness}
+	}
+	{volume "rockets_rot1"
+		{thickness 15}
+		{HighHardness}
+	}
+	{volume "rockets_rot2"
+		{thickness 15}
+		{HighHardness}
+	}
+	{volume "rockets_rot3"
+		{thickness 38
+			{front 42}
+			{top 40}
+			{rear 30}
+			{bottom 40}
+		}
+		{HighHardness}
+	}
+	{volume "rockets_rot4"
+		{thickness 38
+			{front 42}
+			{top 40}
+			{rear 30}
+			{bottom 40}
+		}
+		{HighHardness}
+	}
+
+;==== CREW ====
+
+	("crew_inside")
+	("crew_driver" door(emit1) door2(emit2))
+	("crew_human" place(gunner) door(emit1) door2(emit2) visor(main))
+

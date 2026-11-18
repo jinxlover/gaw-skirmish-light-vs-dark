@@ -12,7 +12,7 @@ Built and tested on game version **1.069**.
 
 **Dark Side**
 - Infantry: B1 droids (squads, AT, flamers, snipers, engineers), BX commandos, Imperial engineers, Geonosians, Killiks, Tusken Raiders, Czerka droids, and Black Krrsantan.
-- Vehicles: the AAT (standard and flamer), AMT, AST, HAML and HAG-M artillery, the STAP, the Imperial AAT, TX-130s and ARV-7, the Canderous tank, the Starhawk, the Bantha-II skiff, the droid bomber, the Imperial LAAT, the Death Star turbolaser and the autoturret.
+- Vehicles: the AAT (standard and flamer), AMT, AST, HAML and HAG-M artillery, the STAP, the Imperial AAT, TX-130s and ARV-7, the Canderous tank, the Starhawk, the Bantha-II skiff, the droid bomber, the Imperial LAAT and the Death Star turbolaser.
 
 **Specialist tab (both sides)**, modelled on the vanilla single-unit tab:
 - Light Side: Clone Trooper (rifle or carbine), Wookiee Heavy Gunners, Clone AT Troopers, Clone Engineers, AT and AP Mine Layers, Clone Medic, Clone Tank Crew, Clone Officer, Clone Sniper Team.
@@ -29,6 +29,16 @@ Built and tested on game version **1.069**.
 **Star Wars map**
 - **(4) Tatooine Wastes**: a 2v2 desert map ported from the Galaxy at War expanded add-on for Men of War: Assault Squad 2. Tested in game in both **Battle Zones** and **Domination**: zones capture, scores count, and matches end in victory or defeat. In the lobby's map list it's near the bottom.
 - Domination follows the vanilla rules: one objective is active at the start, another unlocks every 5 minutes, an objective takes 150 seconds to capture and an HQ takes 180.
+
+## What's new in v1.4
+
+- **Clone Heavy Gunners** with the Z-6 rotary blaster, in clone squads and as a specialist pair. The AI buys them too.
+- **B1 heavy gunners** now carry the E-5M repeater (75-round belt, 550 rpm) instead of the 35-round E-5C.
+- **Grenades:** squads carry vanilla-style smoke and AT grenades on the right members, on both sides. AP and AT detonators now show their explosion effects.
+- **Elites:** 21st, 65th, Geonosian Elite and Czerka units get skill rank 3, tier-3 health and max veterancy. Delta Squad and BX commandos get max veterancy and bigger grenade kits.
+- **Vehicles:** every secondary turret has a crew member and keeps firing while you aim the main gun (the T1-B (M) missile pod and T2-A machine gun never fired before). Vehicles spawn with one crewman per real seat, so 1-seaters no longer bring extra crew.
+- **Speeders:** the Heavy STAP, Starhawk, 105-K lancer bike and the V-19/V-25 side guns can swivel ±45° to aim.
+- Medics and AP mine layers on both sides. The elite auto turret was removed.
 
 ## Screenshots
 

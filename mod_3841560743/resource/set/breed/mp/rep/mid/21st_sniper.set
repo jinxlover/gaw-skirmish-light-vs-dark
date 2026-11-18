@@ -10,23 +10,26 @@
 	}
 	{perks
 		(include "/set/breed/mp/rep_21st/mid/ability.inc")
+		("tier3_standard")
 		("rifle_skill_rank_4")
 		("sniper_vision")
 		("stealth")
 	}
 	{veterancy
 		(include "/set/breed/mp/rep_21st/mid/ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "dc15x_sniper" filled}
 		{item "dc_blasters ammo" 80}
-		{item "empdetonator grenade" 2}
 		{item "galactic_marine_pauldron"}
 		{item "galactic_marine_backpack"}
 
 		{item "bandage_ger" 3.5 0.5}
 		{item "shovel_ger"}
+		{item "empdetonator grenade" 0.5 0.5}
+		{item "gaw_smokegrenade grenade" 1.75 0.5}
+		{item "impactdetonator grenade" 0.5 0.5}
 
 		{in_hands 0}
 	}

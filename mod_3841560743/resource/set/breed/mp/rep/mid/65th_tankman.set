@@ -10,11 +10,12 @@
 	}
 	{perks
 		(include "/set/breed/mp/rep_65th/mid/ability.inc")
+		("tier3_standard")
 		("tankman")
 	}
 	{veterancy
 		(include "/set/breed/mp/rep_65th/mid/ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "dc17_pistol" filled}

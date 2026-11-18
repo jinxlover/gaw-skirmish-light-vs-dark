@@ -1,0 +1,109 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.3))
+	{props "aattank_vitality" "turret_rotator" "heavy" "vision_lev04" "muzzle_520fr" "muzzle_520bk" "muzzle_520rfr" "muzzle_520rbk" "muzzle_520lfr" "muzzle_520lbk"}
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_heavy"}
+	{Extension "520_battleplatform_tank.mdl"}
+	(include "/entity/[galaxy at war]/vehicles & specials/Rebellion/Heavy Vehicles/520_battleplatform_tank/520_battleplatform_tank.ext")
+
+	{extender "inventory"
+		{box
+			{item "520bpf_120mm ap ammo" 70}
+			{item "520bpf_120mm he ammo" 70}
+			{item "520bpf_60mm ap ammo" 260}
+			{item "520bpf_60mm he ammo" 260}
+		}
+	}
+	{Weaponry
+		{place "gunfront"
+			{type "main"}
+			{weapon "120mm_520bpf" filled}
+			{foresight "foresight1"}
+			{gunner "gunner"}
+			("abm_dymamic_stabilised"
+				zeroing(4.0)
+				dispersion(0.20)
+			)
+			{basic}
+		}
+		{place "gunback"
+			{type "main"}
+			{weapon "120mm_520bpf" filled}
+			{foresight "foresight2"}
+			{gunner "gunner1"}
+			("abm_dymamic_stabilised"
+				zeroing(4.0)
+				dispersion(0.20)
+			)
+			{basic}
+			{ai_in_manual}
+		}
+		{place "gunrifront"
+			{type "main"}
+			{weapon "60mm_520bpf" filled}
+			{foresight "foresight4"}
+			{charger "gunner2"}
+			{gunner "gunner2"}
+			("abm_dymamic_stabilised"
+				zeroing(4.0)
+				dispersion(0.20)
+			)
+			{basic}
+			{ai_in_manual}
+		}
+		{place "gunlefront"
+			{type "main"}
+			{weapon "60mm_520bpf" filled}
+			{foresight "foresight3"}
+			{charger "gunner3"}
+			{gunner "gunner3"}
+			("abm_dymamic_stabilised"
+				zeroing(4.0)
+				dispersion(0.20)
+			)
+			{basic}
+			{ai_in_manual}
+		}
+		{place "gunriback"
+			{type "main"}
+			{weapon "60mm_520bpf" filled}
+			{foresight "foresight6"}
+			{charger "gunner4"}
+			{gunner "gunner4"}
+			("abm_dymamic_stabilised"
+				zeroing(4.0)
+				dispersion(0.20)
+			)
+			{basic}
+			{ai_in_manual}
+		}
+		{place "gunleback"
+			{type "main"}
+			{weapon "60mm_520bpf" filled}
+			{foresight "foresight5"}
+			{charger "gunner5"}
+			{gunner "gunner5"}
+			("abm_dymamic_stabilised"
+				zeroing(4.0)
+				dispersion(0.20)
+			)
+			{basic}
+			{ai_in_manual}
+		}
+	}
+	{mass 34200}
+	{Chassis
+		("mobility_tank"
+			speed(35) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(15) ;---------Max speed in reverse on road, km/h.
+			traverse(32) ;-------Track traverse, per second, in degrees.
+			weight(5.8) ;--------Weight in Tonnes.
+			power(100) ;---------Engine Power, in hp.
+			track(10) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(250) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(250) ;---------Range in km, off-road.
+		)
+	}
+}

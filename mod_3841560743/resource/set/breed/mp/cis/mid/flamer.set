@@ -19,6 +19,7 @@
 
 		{item "bandage_ger" 3.5 0.5}
 		{item "b1_flametank" filled}
+		{item "gaw_smokegrenade grenade" 1.25 0.5}
 
 		{in_hands 0}
 	}

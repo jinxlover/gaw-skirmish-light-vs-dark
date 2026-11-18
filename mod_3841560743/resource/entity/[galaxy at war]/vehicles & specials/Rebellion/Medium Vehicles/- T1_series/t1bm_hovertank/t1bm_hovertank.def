@@ -1,0 +1,61 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.3))
+	{props "aattank_vitality" "turret_rotator" "medium" "vision_lev04" "muzzle_t1b_main"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+	{Extension "t1bm_hovertank.mdl"}
+	(include "/entity/[galaxy at war]/vehicles & specials/Rebellion/Medium Vehicles/- T1_series/t1bm_hovertank/t1bm_hovertank.ext")
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_pz-6"}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_pz-6"}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "aac1_30mm he ammo" 400}
+			{item "t1bm_missile ammo" 12}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{type "main"}
+			{weapon "30mm_t1b" filled}
+			{charger "commander"}
+			{Barrels 2}
+			{basic}
+		}
+		{place "rocket"
+			{gunner "commander"}
+			{weapon "t1bm_missile weapon" filled}
+			{charger "commander"}
+			{foresight "foresight2"}
+			{shooter "rshoot"}
+			{Barrels 3}
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+	{mass 9900}
+	{Chassis
+		("mobility_tank"
+			speed(65) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(25) ;---------Max speed in reverse on road, km/h.
+			traverse(32) ;-------Track traverse, per second, in degrees.
+			weight(5.8) ;--------Weight in Tonnes.
+			power(110) ;---------Engine Power, in hp.
+			track(10) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(250) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(250) ;---------Range in km, off-road.
+		)
+	}
+}

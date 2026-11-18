@@ -1,0 +1,210 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 20mm
+	; track guards 5mm
+
+	("tank_medium_tier2")
+
+	{volume "body1"
+		{thickness 80
+			{front 82}
+			{top 75}
+			{rear 55}
+			{bottom 28}
+		}
+		{HighHardness}
+		{component "body"}
+	}
+	{volume "body2"
+		{thickness 80
+			{front 94}
+			{top 75}
+			{rear 42}
+			{bottom 28}
+		}
+		{HighHardness}
+		{component "body"}
+	}
+	{volume "body3"
+		{thickness 75
+			{front 75}
+			{top 100}
+			{rear 40}
+			{bottom 28}
+		}
+		{HighHardness}
+		{component "body"}
+	}
+	{volume "body4"
+		{component "body"}
+		{thickness 65}
+	}
+	{volume "body5"
+		{component "body"}
+		{thickness 65}
+	}
+	{volume "body7"
+		{component "body"}
+		{thickness 65}
+	}
+	{volume "body8"
+		{component "body"}
+		{thickness 65}
+	}
+	{volume "bodyback"
+		{component "body"}
+		{thickness 65
+			{front 35}
+			{top 48}
+			{rear 52}
+			{bottom 28}
+		}
+		{HighHardness}
+	}
+	{volume "bodyr"
+		{component "body"}
+		{thickness 70}
+	}
+	{volume "bodyl"
+		{component "body"}
+		{thickness 70}
+	}
+	{volume "bodyup"
+		{component "body"}
+		{thickness 60
+			{front 55}
+			{top 52}
+			{rear 40}
+			{bottom 28}
+		}
+		{HighHardness}
+	}
+	{volume "bodydown"
+		{component "body"}
+		{thickness 40
+			{front 35}
+			{top 38}
+			{rear 30}
+			{bottom 28}
+		}
+		{HighHardness}
+	}
+	{volume "body9"
+		{component "body"}
+		{thickness 75}
+	}
+	{volume "bodyfront"
+		{component "body"}
+		{thickness 75
+			{front 98}
+			{top 58}
+			{rear 35}
+			{bottom 28}
+		}
+		{HighHardness}
+	}
+	{volume "bodyside1"
+		{component "body"}
+		{thickness 80}
+	}
+	{volume "bodyside2"
+		{component "body"}
+		{thickness 80}
+	}
+	{volume "tank1"
+		{component "body"}
+		{thickness 28}
+	}
+	{volume "tank2"
+		{component "body"}
+		{thickness 28}
+	}
+	{volume "engine"		; Hull
+		{thickness 18
+			{front 15}
+			{rear 15}
+			{bottom 25}
+		}
+		{HighHardness}
+	}
+	{volume "turret1"		; Turret Ring
+		{thickness 70}
+		{HighHardness}
+		{component "turret"}
+	}
+	{volume "turret"
+		{thickness 70
+			{front 72}
+			{top 55}
+			{rear 52}
+			{bottom 37}
+		}
+		{HighHardness}
+		{component "turret"}
+	}
+	{volume "gun_rot"
+		{component "gun"}
+		{thickness 38}
+		{HighHardness}
+	}
+	{volume "gun_rot1"
+		{component "gun"}
+		{thickness 38}
+		{HighHardness}
+	}
+	{volume "gun"
+		{component "gun"}
+		{thickness 15}
+		{HighHardness}
+	}
+	{volume "gun2_rot1"
+		{thickness 28}
+		{HighHardness}
+	}
+	{volume "gun2_rot2"
+		{thickness 28}
+		{HighHardness}
+	}
+	{volume "medgun1"
+		{thickness 3}
+		{HighHardness}
+	}
+	{volume "medgun2"
+		{thickness 3}
+		{HighHardness}
+	}
+	{volume "medgunin1"
+		{thickness 5}
+		{HighHardness}
+	}
+	{volume "medgunin2"
+		{thickness 5}
+		{HighHardness}
+	}
+	{volume "smallgun1"
+		{thickness 2}
+		{HighHardness}
+	}
+	{volume "smallgun2"
+		{thickness 2}
+		{HighHardness}
+	}
+	{volume "smallgun3"
+		{thickness 2}
+		{HighHardness}
+	}
+	{volume "smallgun4"
+		{thickness 2}
+		{HighHardness}
+	}
+
+;==== CREW ====
+
+	("crew_inside")
+	("crew_driver" door(emit6))
+	("crew_human"    place(gunner) door(emit0) door2(emit1) visor(visor2) anm_left(left) anm_right(right)))
+	("crew_human" place(commander)	door(emit1) door2(emit0) visor(around) anm_left(left) anm_right(right)))
+	("crew_human" place(charger)	door(emit1) door2(emit0) visor(around) anm_left(left) anm_right(right)))
+

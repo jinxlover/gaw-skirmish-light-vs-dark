@@ -10,21 +10,23 @@
 	}
 	{perks
 		(include "/set/breed/mp/rep_21st/mid/ability.inc")
-		("smg_skill_rank_2")
+		("tier3_standard")
+		("smg_skill_rank_3")
 		("at_rank_3")
 	}
 	{veterancy
 		(include "/set/breed/mp/rep_21st/mid/ability.inc")
-		("veterancy_lvl_0")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "plx1_rpg weapon" filled}
 		{item "smartrocket ammo" 4.5 0.5}
-		{item "empdetonator grenade" 2}
 
 		{item "bandage_ger" 3.5 0.5}
 		{item "galactic_marine_pauldron"}
 		{item "galactic_marine_backpack"}
+		{item "gaw_smokegrenade grenade" 1.75 0.5}
+		{item "impactdetonator grenade" 1.95 0.5}
 
 		{in_hands 0}
 	}

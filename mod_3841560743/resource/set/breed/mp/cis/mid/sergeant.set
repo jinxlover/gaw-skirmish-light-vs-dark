@@ -16,10 +16,12 @@
 	{inventory
 		{item "e5_blaster" filled}
 		{item "e5_blasters ammo" 250}
-		{item "thermaldetonator grenade" 2}
 
 		{item "bandage_rus" 3.5 0.5}
 		{item "b1_backpack_sergeant"}
+		{item "thermaldetonator grenade" 2.25 0.5}
+		{item "gaw_smokegrenade grenade" 1.25 0.5}
+		{item "impactdetonator grenade" 0.15 0.5}
 
 		{in_hands 0}
 	}

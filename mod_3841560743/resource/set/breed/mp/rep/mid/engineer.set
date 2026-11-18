@@ -20,7 +20,6 @@
 	{inventory
 		{item "dc15s_carbine" filled}
 		{item "dc_blasters ammo" 250}
-		{item "empdetonator grenade" 2}
 
 		{item "bandage_rus" 3.5 0.5}
 		{item "dynamite_ger_x7" 1}
@@ -28,6 +27,8 @@
 		{item "wirecutters"}
 		{item "shovel_ger"}
 		{item "pickaxe"}
+		{item "empdetonator grenade" 1.25 0.5}
+		{item "gaw_smokegrenade grenade" 0.5 0.5}
 
 		{in_hands 0}
 	}

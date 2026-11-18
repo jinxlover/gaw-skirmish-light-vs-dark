@@ -28,6 +28,8 @@
 		{item "shovel_ger"}
 		{item "pickaxe"}
 		{item "dynamite_ger_x7" 1}
+		{item "thermaldetonator grenade" 1.25 0.5}
+		{item "gaw_smokegrenade grenade" 0.5 0.5}
 		{in_hands 0}
 	}
 }

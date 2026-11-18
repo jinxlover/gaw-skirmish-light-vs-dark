@@ -1,0 +1,138 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 20mm
+	; track guards 5mm
+
+	("tank_medium_tier2")
+
+	{volume "body1"
+		{thickness 50
+			{front 68}
+			{top 45}
+			{rear 35}
+			{bottom 28}
+		}
+		{HighHardness}
+		{component "body"}
+	}
+	{volume "body2"
+		{thickness 50
+			{front 63}
+			{top 45}
+			{rear 40}
+			{bottom 28}
+		}
+		{HighHardness}
+		{component "body"}
+	}
+	{volume "body3"
+		{thickness 45
+			{front 55}
+			{top 40}
+			{rear 40}
+			{bottom 28}
+		}
+		{HighHardness}
+		{component "body"}
+	}
+	{volume "body4"
+		{component "body"}
+		{thickness 45}
+	}
+	{volume "body5"
+		{component "body"}
+		{thickness 45}
+	}
+	{volume "body6"
+		{thickness 45
+			{front 35}
+			{top 40}
+			{rear 30}
+			{bottom 32}
+		}
+		{HighHardness}
+		{component "body"}
+	}
+	{volume "body7"
+		{component "body"}
+		{thickness 55}
+	}
+	{volume "body8"
+		{component "body"}
+		{thickness 48}
+	}
+	{volume "body9"
+		{component "body"}
+		{thickness 65}
+	}
+	{volume "body10"
+		{component "body"}
+		{thickness 45}
+	}
+	{volume "body11"
+		{component "body"}
+		{thickness 48}
+	}
+	{volume "body12"
+		{component "body"}
+		{thickness 65}
+	}
+	{volume "engine"		; Hull
+		{thickness 18
+			{front 10}
+			{rear 10}
+			{bottom 25}
+		}
+		{HighHardness}
+	}
+	{volume "gun_rot"
+		{thickness 45}
+		{HighHardness}
+		{component "gun"}
+	}
+	{volume "gun"
+		{thickness 12}
+		{HighHardness}
+		{component "gun"}
+	}
+	{volume "gun1"
+		{thickness 25}
+		{HighHardness}
+		{component "gun"}
+	}
+	{volume "gun2"
+		{thickness 18}
+		{HighHardness}
+		{component "gun"}
+	}
+	{volume "mgun1"
+		{thickness 5}
+		{HighHardness}
+		{component "gunsmall"}
+	}
+	{volume "mgun2"
+		{thickness 5}
+		{HighHardness}
+		{component "gunsmall"}
+	}
+	{volume "gun2_rot"
+		{thickness 18}
+		{HighHardness}
+		{component "gunside"}
+	}
+	{volume "gunside"
+		{thickness 15}
+		{HighHardness}
+		{component "gunside"}
+	}
+
+;==== CREW ====
+
+	("crew_inside")
+	("crew_driver" door(emit1) door2(emit2))
+	("crew_human"    place(gunner) door(emit1) door2(emit2) visor(visor2) anm_left(left) anm_right(right)))
+	("crew_human" place(commander)	door(emit1) door2(emit2) visor(around) anm_left(left) anm_right(right)))
+	("crew_human" place(charger)	door(emit1) door2(emit2) visor(around) anm_left(left) anm_right(right)))
+

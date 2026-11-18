@@ -17,7 +17,6 @@
 	{inventory
 		{item "e5_shotgun" filled}
 		{item "e5sh_blasters ammo" 60}
-		{item "thermaldetonator grenade" 2}
 
 		{item "bandage_ger" 3.5 0.5}
 		{item "mine_detector"}
@@ -26,6 +25,8 @@
 		{item "pickaxe"}
 		{item "b1_backpack"}
 		{item "dynamite_ger_x7" 1}
+		{item "thermaldetonator grenade" 1.25 0.5}
+		{item "gaw_smokegrenade grenade" 0.5 0.5}
 
 		{in_hands 0}
 	}

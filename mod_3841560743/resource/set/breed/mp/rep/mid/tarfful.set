@@ -11,7 +11,7 @@
 	}
 	{veterancy
 		(include "/set/breed/single/Star Wars/Galaxy/Kashyyyk/- wookiees/Heroes/ability.inc")
-		("veterancy_lvl_3")
+		("veterancy_lvl_5")
 	}
 	{inventory
 		{item "wookiee_longgun" filled}

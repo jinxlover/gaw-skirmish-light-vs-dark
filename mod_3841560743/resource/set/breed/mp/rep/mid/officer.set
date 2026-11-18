@@ -20,12 +20,14 @@
 	{inventory
 		{item "dc15s_carbine" filled}
 		{item "dc_blasters ammo" 250}
-		{item "empdetonator grenade" 2}
 		{item "galactic_marine_pauldron"}
 		{item "galactic_marine_backpack"}
 
 		{item "bandage_ger" 3.5 0.5}
 		{item "binocular"}
+		{item "empdetonator grenade" 2.25 0.5}
+		{item "gaw_smokegrenade grenade" 1.25 0.5}
+		{item "impactdetonator grenade" 0.15 0.5}
 
 		{in_hands 0}
 	}

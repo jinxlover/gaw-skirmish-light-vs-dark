@@ -20,9 +20,10 @@
 	{inventory
 		{item "plx1_rpg weapon" filled}
 		{item "smartrocket ammo" 4.5 0.5}
-		{item "empdetonator grenade" 2}
 
 		{item "bandage_ger" 3.5 0.5}
+		{item "gaw_smokegrenade grenade" 1.25 0.5}
+		{item "impactdetonator grenade" 1.15 0.5}
 
 		{in_hands 0}
 	}

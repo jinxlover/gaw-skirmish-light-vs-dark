@@ -14,6 +14,7 @@ Purchases["early.cis"] = {
 			{priority = 1.2, type = {"Class3", "Infantry", "Squad",}, unit = "gaw_geonosians(cis)"},
 			{priority = 1.2, type = {"Class2", "Infantry", "Squad",}, unit = "gaw_tusken_raiders(cis)"},
 			{priority = 1.2, type = {"Class2", "Infantry", "Squad",}, unit = "gaw_killiks(cis)"},
+			{priority = 1.2, type = {"Class2", "Infantry", "Squad",}, unit = "gaw_single_b1_mg(cis)"},
 			{priority = 1.2, type = {"Class2", "Infantry", "Squad",}, unit = "gaw_b1_sniper(cis)"},
 			{priority = 0.8, type = {"Class3", "Vehicle", "Light",}, unit = "heavy_stap"},
 			{priority = 0.8, type = {"Class3", "Vehicle", "Light",}, unit = "starhawk_speeder"},
